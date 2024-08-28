@@ -1,0 +1,174 @@
+
+Histogram
+What it is & Ideal Use: A histogram is a graphical representation of the distribution of numerical data. It efficiently shows the frequency of data points within certain ranges, making it ideal for understanding the distribution and spread of a single continuous variable.
+How I'm Using It: I’m using histograms to visualize distributions such as fight duration, strike counts, and other numerical metrics across different categories.
+Category: Basic Charts
+Dataset: Raw
+
+Opinion: I'm using histograms appropriately to provide a clear view of the distribution of key numerical variables.
+Pie Chart
+What it is & Ideal Use: A pie chart is a circular statistical graphic that displays proportions of a whole. It’s best used to show the percentage or proportional data among categories.
+How I'm Using It: I’m using pie charts to show the proportion of victories by different methods (e.g., KO, submission) or the distribution of fighters across different continents.
+Category: Proportional and Comparative Charts
+Dataset: Aggregated
+Opinion: Pie charts can be less effective for showing precise proportions, but they work well for high-level comparisons, and I’m using them properly for that purpose.
+
+Line Graph
+What it is & Ideal Use: A line graph connects individual data points in a sequence and is ideal for showing trends over time or continuous data.
+How I'm Using It: I’m using line graphs to show trends in fight statistics over time, such as the progression of a fighter's career.
+Category: Time Series and Sequence Charts
+Dataset: Aggregated
+Opinion: Line graphs are well-suited for showing trends over time, and my use of them is appropriate for this purpose.
+
+Bar Graph
+What it is & Ideal Use: A bar graph represents categorical data with rectangular bars. It is ideal for comparing different categories of data.
+How I'm Using It: I’m using bar graphs to compare metrics like the number of wins by weight class or stances.
+Category: Basic Charts
+Dataset: Aggregated
+Opinion: Bar graphs are highly effective for comparisons, and I’m using them correctly for categorical comparisons.
+
+Box Plot
+What it is & Ideal Use: A box plot displays the distribution of data based on five summary statistics: minimum, first quartile, median, third quartile, and maximum. It’s ideal for detecting outliers and comparing distributions.
+How I'm Using It: I’m using box plots to compare the distribution of fight durations, strike counts, and other continuous variables across different categories.
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Box plots are excellent for comparing distributions and identifying outliers, and I’m using them effectively for these purposes.
+
+Scatter Plot
+What it is & Ideal Use: A scatter plot displays values for typically two variables for a set of data. It’s used to identify correlations, patterns, and trends between two continuous variables.
+How I'm Using It: I’m using scatter plots to identify relationships between variables such as reach and height or fight duration and total strikes.
+Category: Basic Charts
+Dataset: Raw
+Opinion: Scatter plots are perfect for showing relationships between variables, and I’m using them well to explore potential correlations.
+
+Heatmap
+What it is & Ideal Use: A heatmap uses color to show the intensity or frequency of data points, making it ideal for visualizing correlation matrices or data matrices.
+How I'm Using It: I’m using heatmaps to display correlations between different fight metrics or to visualize strike performance across different stances.
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Heatmaps are very effective for showing correlations and data intensities, and my application is well-suited to these visualizations.
+
+Density Plot
+What it is & Ideal Use: A density plot shows the distribution of a continuous variable, allowing for the visualization of the probability density function of the data.
+How I'm Using It: I’m using density plots to compare the distribution of fight durations or strike accuracy by different stances or weight classes.
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Density plots are excellent for comparing distributions, and I’m using them effectively for this purpose.
+
+Pair Plot
+What it is & Ideal Use: A pair plot is a matrix of scatter plots that shows pairwise relationships between multiple variables. It’s ideal for exploring correlations and relationships among several variables simultaneously.
+How I'm Using It: I’m using pair plots to examine relationships between various fighter performance metrics, such as wins, losses, and strike data.
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Pair plots are highly effective for exploring multiple relationships at once, and I’m using them appropriately to understand the interactions between performance metrics.
+Violin Plot
+What it is & Ideal Use: A violin plot combines the features of a box plot with a density plot, showing the distribution, probability density, and summary statistics. It’s ideal for comparing distributions across different categories.
+How I'm Using It: I’m using violin plots to visualize the distribution of fight durations across different weight classes.
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Violin plots are powerful for comparing distributions, and my use of them to explore fight durations is effective.
+
+Ridgeline Plot
+What it is & Ideal Use: A ridgeline plot shows the distribution of a numeric variable for several groups, layered over each other. It’s ideal for visualizing multiple distributions in a compact space.
+How I'm Using It: I’m using ridgeline plots to compare the distribution of fight durations by stance.
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Ridgeline plots are great for compactly displaying distributions, and I’m using them effectively to compare distributions across stances.
+
+Facet Grid/Wrap
+What it is & Ideal Use: Facet grids/wraps create small multiples of plots based on one or more categorical variables, allowing for comparison across different subsets of the data. It’s ideal for comparing trends or distributions across multiple categories.
+How I'm Using It: I’m using facet grids to compare distributions like fight duration by outcome across different weight classes.
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Facet grids are highly effective for comparative analysis across categories, and I’m using them appropriately for my data.
+
+Bubble Chart
+What it is & Ideal Use: A bubble chart is an extension of a scatter plot where a third variable’s value is represented by the size of the bubble. It’s ideal for adding another dimension to the analysis.
+How I'm Using It: I’m using bubble charts to explore relationships between clinch head strikes, ground head strikes, and knockdowns (KD).
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Bubble charts are excellent for multi-dimensional analysis, and I’m using them well to explore relationships between key metrics.
+
+Treemap
+What it is & Ideal Use: A treemap displays hierarchical data using nested rectangles, making it ideal for visualizing part-to-whole relationships within a hierarchy.
+How I'm Using It: I’m using treemaps to visualize the distribution of UFC fighters by continent and country.
+Category: Hierarchical and Network Diagrams
+Dataset: Unique
+Opinion: Treemaps are well-suited for hierarchical data, and I’m using them effectively to represent geographical distribution.
+
+Radar Chart
+What it is & Ideal Use: A radar chart displays multivariate data in the form of a polygon, with each axis representing a variable. It’s ideal for comparing performance metrics across multiple dimensions.
+How I'm Using It: I’m using radar charts to compare different strike metrics (e.g., body, head, leg strikes) for selected fighters.
+Category: Specialty Charts
+Dataset: Unique
+Opinion: Radar charts are effective for comparing multiple dimensions, and I’m using them appropriately to visualize fighter performance across various metrics.
+
+16. Lollipop Chart
+What it is & Ideal Use: A lollipop chart is similar to a bar graph but with a thin line connecting the data point to the axis. It’s ideal for ranking or comparing data points in a visually distinct and minimalistic way.
+How I'm Using It: I’m using lollipop charts to visualize the number of wins by team, highlighting which teams have achieved the highest numbers of victories.
+Category: Proportional and Comparative Charts
+Dataset: Aggregated
+Opinion: Lollipop charts are effective for ranking and comparisons, and I’m using them well to clearly highlight team performance in a visually engaging manner.
+
+Circular Barplot
+What it is & Ideal Use: A circular barplot is a variation of a bar plot where bars are arranged in a circular layout. It’s often used for visual appeal and is best for displaying categorical data with a focus on aesthetics.
+How I'm Using It: I’m using circular barplots to show the distribution of victories across different weight classes or stances.
+Category: Proportional and Comparative Charts
+Dataset: Aggregated
+Opinion: While circular barplots can sometimes sacrifice clarity for aesthetics, I’m using them effectively to create a visually engaging summary of categorical data.
+
+Waterfall Chart
+What it is & Ideal Use: A waterfall chart displays the cumulative effect of sequentially introduced positive or negative values, typically used for financial data to show changes in a value over time.
+How I'm Using It: I’m using waterfall charts to illustrate changes in the number of strikes landed across rounds or the progression of a fighter’s career metrics.
+Category: Flow and Process Charts
+Dataset: Aggregated
+Opinion: Waterfall charts are effective for showing cumulative changes, and my application to display changes in strikes or metrics over time is appropriate.
+
+Cleveland Dot Plot
+What it is & Ideal Use: A Cleveland dot plot is a variation of a scatter plot where each dot represents a value, often used to compare values across different categories. It’s particularly useful for displaying the differences between groups.
+How I'm Using It: I’m using Cleveland dot plots to compare metrics such as strike accuracy or fight duration across different stances or weight classes.
+Category: Proportional and Comparative Charts
+Dataset: Aggregated
+Opinion: Cleveland dot plots are highly effective for making comparisons, and I’m using them well to highlight differences across categories.
+
+Sankey Diagram
+What it is & Ideal Use: A Sankey diagram visualizes the flow of quantities between different entities, with the width of the arrows representing the magnitude of the flow. It’s ideal for showing how values are distributed or transformed between categories.
+How I'm Using It: I’m using Sankey diagrams to visualize the flow from continents to fight outcomes, showing how different geographical regions contribute to different outcomes.
+Category: Flow and Process Charts
+Dataset: Aggregated
+Opinion: Sankey diagrams are well-suited for showing flows between categories, and I’m using them effectively to demonstrate geographical contributions to fight outcomes.
+
+Mosaic Plot
+What it is & Ideal Use: A mosaic plot is used to visualize the relationship between two or more categorical variables, with the area of each tile representing the proportion of the data. It’s ideal for showing associations between categorical variables.
+How I'm Using It: I’m using mosaic plots to display the relationship between weight class and decision outcomes in fights.
+Category: Advanced Statistical Charts
+Dataset: Aggregated
+Opinion: Mosaic plots are excellent for showing relationships between categorical variables, and my application in comparing weight class and decision outcomes is appropriate.
+
+Cumulative Plot
+What it is & Ideal Use: A cumulative plot shows the cumulative sum of data over time or across categories. It’s ideal for understanding how a variable accumulates over time or within groups.
+How I'm Using It: I’m using cumulative plots to show the growth of total strikes in UFC fights over time.
+Category: Time Series and Sequence Charts
+Dataset: Aggregated
+Opinion: Cumulative plots are effective for showing trends in accumulated data, and my use of them to track strikes over time is well-suited.
+
+Ternary Plot
+What it is & Ideal Use: A ternary plot is used to display the proportions of three variables that sum to a constant, typically 100%. It’s ideal for comparing compositions in three-part data.
+How I'm Using It: I’m using ternary plots to compare the proportions of body, head, and leg strikes for each fighter.
+Category: Specialty Charts
+Dataset: Aggregated
+Opinion: Ternary plots are perfect for comparing compositions, and I’m using them effectively to explore strike distributions among fighters.
+
+Network Graph
+What it is & Ideal Use: A network graph shows relationships between entities, often used for social networks or any situation where connections between nodes are significant. It’s ideal for visualizing complex relationships.
+How I'm Using It: I’m using network graphs to illustrate the relationships between selected UFC fighters based on their fights.
+Category: Hierarchical and Network Diagrams
+Dataset: Unique
+Opinion: Network graphs are ideal for showing relationships, and I’m using them effectively to visualize connections between fighters.
+
+Dendrogram
+What it is & Ideal Use: A dendrogram is a tree-like diagram used to illustrate the arrangement of clusters produced by hierarchical clustering. It’s ideal for showing the relationships between objects based on similarity.
+How I'm Using It: I’m using dendrograms to visualize the clustering of fighters based on their metrics across different continents.
+Category: Hierarchical and Network Diagrams
+Dataset: Aggregated
+Opinion: Dendrograms are highly effective for clustering analysis, and I’m using them appropriately to explore fighter similarities by continent.
