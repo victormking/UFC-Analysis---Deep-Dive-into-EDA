@@ -1,5 +1,393 @@
                                                                                     Section 4: Summary Statistics
 
+   Fighter            Opponent              Date              Country            WT_Class        
+ Length:1045        Length:1045        Min.   :2012-01-19   Length:1045        Length:1045       
+ Class :character   Class :character   1st Qu.:2019-04-27   Class :character   Class :character  
+ Mode  :character   Mode  :character   Median :2021-08-07   Mode  :character   Mode  :character  
+                                       Mean   :2021-01-10                                        
+                                       3rd Qu.:2023-04-15                                        
+                                       Max.   :2024-07-27                                        
+     Height          Weight        Birthdate              Team             Nickname        
+ Min.   :61.00   Min.   :114.0   Min.   :1984-02-12   Length:1045        Length:1045       
+ 1st Qu.:67.00   1st Qu.:135.0   1st Qu.:1988-03-17   Class :character   Class :character  
+ Median :71.00   Median :154.0   Median :1991-04-22   Mode  :character   Mode  :character  
+ Mean   :69.94   Mean   :161.8   Mean   :1991-03-29                                        
+ 3rd Qu.:73.00   3rd Qu.:171.0   3rd Qu.:1993-09-06                                        
+ Max.   :78.00   Max.   :265.0   Max.   :2000-08-21                                        
+    Stance              Reach         Decision              Rnd            Time          
+ Length:1045        Min.   :58.00   Length:1045        Min.   :1.000   Length:1045       
+ Class :character   1st Qu.:69.00   Class :character   1st Qu.:2.000   Class :character  
+ Mode  :character   Median :71.00   Mode  :character   Median :3.000   Mode  :character  
+                    Mean   :71.74                      Mean   :2.492                     
+                    3rd Qu.:75.00                      3rd Qu.:3.000                     
+                    Max.   :81.00                      Max.   :5.000                     
+    Event               Res                 SDBL            SDB_A           SDHL       
+ Length:1045        Length:1045        Min.   : 0.000   Min.   : 0.0   Min.   :  0.00  
+ Class :character   Class :character   1st Qu.: 1.000   1st Qu.: 2.0   1st Qu.:  6.00  
+ Mode  :character   Mode  :character   Median : 4.000   Median : 7.0   Median : 15.00  
+                                       Mean   : 6.976   Mean   :10.6   Mean   : 22.77  
+                                       3rd Qu.:10.000   3rd Qu.:16.0   3rd Qu.: 32.00  
+                                       Max.   :60.000   Max.   :88.0   Max.   :184.00  
+     SDH_A             SDLL            SDL_A              TSL              TS_A            SSL        
+ Min.   :  0.00   Min.   : 0.000   Min.   :  0.000   Min.   :  0.00   Min.   :  0.0   Min.   :  0.00  
+ 1st Qu.: 19.00   1st Qu.: 1.000   1st Qu.:  1.000   1st Qu.: 28.00   1st Qu.: 52.0   1st Qu.: 19.00  
+ Median : 47.00   Median : 5.000   Median :  6.000   Median : 59.00   Median :110.0   Median : 40.00  
+ Mean   : 64.29   Mean   : 8.041   Mean   :  9.873   Mean   : 66.81   Mean   :120.9   Mean   : 47.73  
+ 3rd Qu.: 93.00   3rd Qu.:10.000   3rd Qu.: 14.000   3rd Qu.: 96.00   3rd Qu.:177.0   3rd Qu.: 68.00  
+ Max.   :387.00   Max.   :95.000   Max.   :102.000   Max.   :262.00   Max.   :449.0   Max.   :241.00  
+      SS_A        X.Total_Strikes        KD             X.BODY           X.HEAD           X.LEG       
+ Min.   :  0.00   Min.   :  0.00   Min.   :0.0000   Min.   :  0.00   Min.   :  0.00   Min.   :  0.00  
+ 1st Qu.: 40.00   1st Qu.: 44.00   1st Qu.:0.0000   1st Qu.: 53.00   1st Qu.: 30.00   1st Qu.: 60.00  
+ Median : 82.00   Median : 54.00   Median :0.0000   Median : 71.00   Median : 40.00   Median : 83.00  
+ Mean   : 98.38   Mean   : 53.42   Mean   :0.2746   Mean   : 66.49   Mean   : 40.29   Mean   : 70.37  
+ 3rd Qu.:143.00   3rd Qu.: 64.00   3rd Qu.:0.0000   3rd Qu.: 86.00   3rd Qu.: 50.00   3rd Qu.:100.00  
+ Max.   :445.00   Max.   :100.00   Max.   :5.0000   Max.   :100.00   Max.   :100.00   Max.   :100.00  
+      SCBL            SCB_A            SCHL            SCH_A             SCLL        
+ Min.   : 0.000   Min.   : 0.00   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 0.000   1st Qu.: 0.00   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.: 0.0000  
+ Median : 1.000   Median : 1.00   Median : 1.000   Median : 2.000   Median : 0.0000  
+ Mean   : 2.076   Mean   : 2.39   Mean   : 2.345   Mean   : 3.769   Mean   : 0.2411  
+ 3rd Qu.: 3.000   3rd Qu.: 3.00   3rd Qu.: 3.000   3rd Qu.: 5.000   3rd Qu.: 0.0000  
+ Max.   :35.000   Max.   :35.00   Max.   :33.000   Max.   :52.000   Max.   :23.0000  
+     SCL_A               RV               SR                TDL              TD_A       
+ Min.   : 0.0000   Min.   :0.0000   Min.   :  0.0000   Min.   : 0.000   Min.   : 0.000  
+ 1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.:  0.0000   1st Qu.: 0.000   1st Qu.: 0.000  
+ Median : 0.0000   Median :0.0000   Median :  0.0000   Median : 0.000   Median : 1.000  
+ Mean   : 0.2651   Mean   :0.1196   Mean   :  0.7722   Mean   : 1.144   Mean   : 2.883  
+ 3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.:  0.0000   3rd Qu.: 2.000   3rd Qu.: 4.000  
+ Max.   :23.0000   Max.   :3.0000   Max.   :100.0000   Max.   :14.000   Max.   :49.000  
+      TDS             X.TK_ACC           SGBL            SGB_A             SGHL        
+ Min.   :0.00000   Min.   :  0.00   Min.   : 0.000   Min.   : 0.000   Min.   :  0.000  
+ 1st Qu.:0.00000   1st Qu.:  0.00   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.:  0.000  
+ Median :0.00000   Median :  0.00   Median : 0.000   Median : 0.000   Median :  1.000  
+ Mean   :0.07847   Mean   : 25.92   Mean   : 0.623   Mean   : 0.734   Mean   :  4.699  
+ 3rd Qu.:0.00000   3rd Qu.: 50.00   3rd Qu.: 0.000   3rd Qu.: 0.000   3rd Qu.:  5.000  
+ Max.   :5.00000   Max.   :100.00   Max.   :39.000   Max.   :47.000   Max.   :100.000  
+     SGH_A             SGLL            SGL_A              AD               ADTB       
+ Min.   :  0.00   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   :0.0000  
+ 1st Qu.:  0.00   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.: 0.0000   1st Qu.:0.0000  
+ Median :  1.00   Median : 0.000   Median : 0.000   Median : 0.0000   Median :0.0000  
+ Mean   :  6.57   Mean   : 0.155   Mean   : 0.201   Mean   : 0.4278   Mean   :0.1368  
+ 3rd Qu.:  8.00   3rd Qu.: 0.000   3rd Qu.: 0.000   3rd Qu.: 0.0000   3rd Qu.:0.0000  
+ Max.   :112.00   Max.   :21.000   Max.   :23.000   Max.   :14.0000   Max.   :7.0000  
+      ADHG              ADTM              ADTS              SM         Southpaw_Stance 
+ Min.   : 0.0000   Min.   : 0.0000   Min.   :0.0000   Min.   :0.0000   Min.   :0.0000  
+ 1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:0.0000  
+ Median : 0.0000   Median : 0.0000   Median :0.0000   Median :0.0000   Median :0.0000  
+ Mean   : 0.1464   Mean   : 0.1005   Mean   :0.1225   Mean   :0.3416   Mean   :0.1464  
+ 3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.:0.0000   3rd Qu.:0.0000  
+ Max.   :15.0000   Max.   :28.0000   Max.   :6.0000   Max.   :5.0000   Max.   :1.0000  
+ Orthodox_Stance  Switch_Stance     Time_Seconds   Total_Fight_Time_Seconds Decision_Unanimous
+ Min.   :0.0000   Min.   :0.0000   Min.   :  7.0   Min.   :   8.0           Min.   :0.0000    
+ 1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:177.0   1st Qu.: 326.0           1st Qu.:0.0000    
+ Median :1.0000   Median :0.0000   Median :300.0   Median : 900.0           Median :0.0000    
+ Mean   :0.7397   Mean   :0.1139   Mean   :234.6   Mean   : 682.1           Mean   :0.3933    
+ 3rd Qu.:1.0000   3rd Qu.:0.0000   3rd Qu.:300.0   3rd Qu.: 900.0           3rd Qu.:1.0000    
+ Max.   :1.0000   Max.   :1.0000   Max.   :300.0   Max.   :1500.0           Max.   :1.0000    
+     KO_TKO         Submission     Decision_Split      No_Contest           Draw        
+ Min.   :0.0000   Min.   :0.0000   Min.   :0.00000   Min.   :0.00000   Min.   :0.00000  
+ 1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:0.00000   1st Qu.:0.00000   1st Qu.:0.00000  
+ Median :0.0000   Median :0.0000   Median :0.00000   Median :0.00000   Median :0.00000  
+ Mean   :0.3206   Mean   :0.1684   Mean   :0.08134   Mean   :0.01148   Mean   :0.01148  
+ 3rd Qu.:1.0000   3rd Qu.:0.0000   3rd Qu.:0.00000   3rd Qu.:0.00000   3rd Qu.:0.00000  
+ Max.   :1.0000   Max.   :1.0000   Max.   :1.00000   Max.   :1.00000   Max.   :1.00000  
+ Decision_Majority  TKO_Doctors_Stoppage     Africa             Asia            Europe      
+ Min.   :0.000000   Min.   :0.000000     Min.   :0.00000   Min.   :0.0000   Min.   :0.0000  
+ 1st Qu.:0.000000   1st Qu.:0.000000     1st Qu.:0.00000   1st Qu.:0.0000   1st Qu.:0.0000  
+ Median :0.000000   Median :0.000000     Median :0.00000   Median :0.0000   Median :0.0000  
+ Mean   :0.006699   Mean   :0.006699     Mean   :0.02967   Mean   :0.1196   Mean   :0.2067  
+ 3rd Qu.:0.000000   3rd Qu.:0.000000     3rd Qu.:0.00000   3rd Qu.:0.0000   3rd Qu.:0.0000  
+ Max.   :1.000000   Max.   :1.000000     Max.   :1.00000   Max.   :1.0000   Max.   :1.0000  
+ North_America    South_America       Oceania       X.Significant_Strikes X.Clinch_Body_Strikes
+ Min.   :0.0000   Min.   :0.0000   Min.   :0.0000   Min.   :  0.00        Min.   :  0.00       
+ 1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.: 40.00        1st Qu.:  0.00       
+ Median :0.0000   Median :0.0000   Median :0.0000   Median : 49.00        Median : 50.00       
+ Mean   :0.3885   Mean   :0.1866   Mean   :0.0689   Mean   : 48.98        Mean   : 46.55       
+ 3rd Qu.:1.0000   3rd Qu.:0.0000   3rd Qu.:0.0000   3rd Qu.: 58.00        3rd Qu.:100.00       
+ Max.   :1.0000   Max.   :1.0000   Max.   :1.0000   Max.   :100.00        Max.   :100.00       
+ X.Clinch_Head_Strikes X.Clinch_Leg_Strikes X.Ground_Body_Strikes X.Ground_Head_Strikes
+ Min.   :  0.00        Min.   :  0.000      Min.   :  0.00        Min.   :  0.00       
+ 1st Qu.:  0.00        1st Qu.:  0.000      1st Qu.:  0.00        1st Qu.:  0.00       
+ Median : 42.00        Median :  0.000      Median :  0.00        Median : 50.00       
+ Mean   : 40.36        Mean   :  9.928      Mean   : 17.43        Mean   : 41.69       
+ 3rd Qu.: 75.00        3rd Qu.:  0.000      3rd Qu.:  0.00        3rd Qu.: 80.00       
+ Max.   :100.00        Max.   :100.000      Max.   :180.00        Max.   :138.00       
+ X.Ground_Leg_Strikes    Results        Continent        
+ Min.   :  0.000      Min.   :0.0000   Length:1045       
+ 1st Qu.:  0.000      1st Qu.:0.0000   Class :character  
+ Median :  0.000      Median :1.0000   Mode  :character  
+ Mean   :  4.976      Mean   :0.6306                     
+ 3rd Qu.:  0.000      3rd Qu.:1.0000                     
+ Max.   :100.000      Max.   :1.0000                     
+
+
+
+
+  Height Weight Reach Rnd SDBL SDB_A SDHL SDH_A SDLL SDL_A TSL TS_A SSL SS_A X.Total_Strikes KD X.BODY
+1     71    154    71   3    4     7   15    47    5     6  59  110  40   82              54  0     71
+  X.HEAD X.LEG SCBL SCB_A SCHL SCH_A SCLL SCL_A RV SR TDL TD_A TDS X.TK_ACC SGBL SGB_A SGHL SGH_A SGLL
+1     40    83    1     1    1     2    0     0  0  0   0    1   0        0    0     0    1     1    0
+  SGL_A AD ADTB ADHG ADTM ADTS SM Southpaw_Stance Orthodox_Stance Switch_Stance Time_Seconds
+1     0  0    0    0    0    0  0               0               1             0          300
+  Total_Fight_Time_Seconds Decision_Unanimous KO_TKO Submission Decision_Split No_Contest Draw
+1                      900                  0      0          0              0          0    0
+  Decision_Majority TKO_Doctors_Stoppage Africa Asia Europe North_America South_America Oceania
+1                 0                    0      0    0      0             0             0       0
+  X.Significant_Strikes X.Clinch_Body_Strikes X.Clinch_Head_Strikes X.Clinch_Leg_Strikes
+1                    49                    50                    42                    0
+  X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes Results
+1                     0                    50                    0       1
+
+
+  Height Weight Reach Rnd SDBL SDB_A SDHL SDH_A SDLL SDL_A TSL TS_A SSL SS_A X.Total_Strikes KD X.BODY
+1     71    170    71   3    0     0    1     7    0     0  40   10  10   22              50  0    100
+  X.HEAD X.LEG SCBL SCB_A SCHL SCH_A SCLL SCL_A RV SR TDL TD_A TDS X.TK_ACC SGBL SGB_A SGHL SGH_A SGLL
+1     50   100    0     0    0     0    0     0  0  0   0    0   0        0    0     0    0     0    0
+  SGL_A AD ADTB ADHG ADTM ADTS SM Southpaw_Stance Orthodox_Stance Switch_Stance Time_Seconds
+1     0  0    0    0    0    0  0               0               1             0          300
+  Total_Fight_Time_Seconds Decision_Unanimous KO_TKO Submission Decision_Split No_Contest Draw
+1                      900                  0      0          0              0          0    0
+  Decision_Majority TKO_Doctors_Stoppage Africa Asia Europe North_America South_America Oceania
+1                 0                    0      0    0      0             0             0       0
+  X.Significant_Strikes X.Clinch_Body_Strikes X.Clinch_Head_Strikes X.Clinch_Leg_Strikes
+1                    50                     0                     0                    0
+  X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes Results
+1                     0                     0                    0       1
+
+
+
+    Height   Weight    Reach      Rnd    SDBL    SDB_A    SDHL  SDH_A     SDLL    SDL_A     TSL
+1 16.84191 1598.367 25.03171 1.158219 59.1364 118.0349 586.745 3469.8 103.6602 149.7855 2481.22
+      TS_A      SSL     SS_A X.Total_Strikes        KD   X.BODY   X.HEAD    X.LEG    SCBL    SCB_A
+1 7180.077 1440.623 5765.407        301.9281 0.3296724 749.5778 274.8168 1227.861 13.7711 17.38765
+      SCHL    SCH_A     SCLL    SCL_A        RV       SR     TDL  TD_A       TDS X.TK_ACC     SGBL
+1 12.59577 29.61822 1.231064 1.334842 0.1533025 58.75076 3.47048 16.54 0.1470934 1213.968 6.679549
+     SGB_A     SGHL    SGH_A      SGLL    SGL_A       AD     ADTB      ADHG     ADTM      ADTS
+1 9.618816 82.15522 161.8832 0.9970174 1.459578 1.656892 0.338536 0.6404205 1.216906 0.2512658
+        SM Southpaw_Stance Orthodox_Stance Switch_Stance Time_Seconds Total_Fight_Time_Seconds
+1 0.556551       0.1250949       0.1927221     0.1010046     7804.436                 143350.5
+  Decision_Unanimous   KO_TKO Submission Decision_Split No_Contest       Draw Decision_Majority
+1           0.238844 0.218015  0.1401896     0.07479514 0.01136226 0.01136226       0.006660067
+  TKO_Doctors_Stoppage     Africa      Asia    Europe North_America South_America    Oceania
+1          0.006660067 0.02881263 0.1054098 0.1641313      0.237799     0.1519276 0.06421383
+  X.Significant_Strikes X.Clinch_Body_Strikes X.Clinch_Head_Strikes X.Clinch_Leg_Strikes
+1              224.1366              2176.631               1498.74             852.2429
+  X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes  Results
+1              1375.916              1709.628             440.4659 0.233161
+> # Count the number of unique fighters
+> num_fighters <- historical_data %>% distinct(Fighter) %>% nrow()
+> # Count the number of unique countries
+> num_countries <- historical_data %>% distinct(Country) %>% nrow()
+> # Get the distribution of fighters by country
+> fighters_by_country <- historical_data %>%
++   group_by(Country) %>%
++   summarise(Num_Fighters = n_distinct(Fighter)) %>%
++   arrange(desc(Num_Fighters))
+> # Analyze the time frame of fights
+> time_frame <- range(historical_data$Date, na.rm = TRUE)
+> # results
+> list(
++   Number_of_Fighters = num_fighters,
++   Number_of_Countries = num_countries,
++   Fighters_by_Country = fighters_by_country,
++   Time_Frame = time_frame
++ )
+$Number_of_Fighters
+[1] 128
+
+$Number_of_Countries
+[1] 36
+
+$Fighters_by_Country
+# A tibble: 36 × 2
+   Country   Num_Fighters
+   <chr>            <int>
+ 1 USA                 33
+ 2 Brazil              22
+ 3 England             12
+ 4 Australia            7
+ 5 Russia               6
+ 6 Mexico               5
+ 7 Poland               5
+ 8 Georgia              3
+ 9 Ireland              3
+10 Canada               2
+# ℹ 26 more rows
+# ℹ Use `print(n = ...)` to see more rows
+
+$Time_Frame
+[1] "2012-01-19" "2024-07-27"
+
+> # Frequency counts for key categorical columns I picked
+> frequency_counts_results <- table(historical_data$Res)
+> frequency_counts_team <- table(historical_data$Team)
+> frequency_counts_continent <- table(historical_data$Continent)
+> frequency_counts_country <- table(historical_data$Country)
+> frequency_counts_wt_class <- table(historical_data$WT_Class)
+> frequency_counts_stance <- table(historical_data$Stance)
+> frequency_counts_decision <- table(historical_data$Decision)
+> # Display frequency counts
+> print("Frequency Counts for Results:")
+[1] "Frequency Counts for Results:"
+> print(frequency_counts_results)
+
+  D   L   W 
+ 24 362 659 
+> print("Frequency Counts for Team:")
+[1] "Frequency Counts for Team:"
+> print(frequency_counts_team)
+
+                               4oz Fight Club                   Absolute Mixed Martial Arts 
+                                           13                                            13 
+                           ADAM Coatzacoalcos                              Agoge Combatives 
+                                            1                                             4 
+            AKA (American Kickboxing Academy)                                  Alliance MMA 
+                                            5                                            23 
+                     Allstars Training Center                           American Combat Gym 
+                                            3                                             1 
+                            American Top Team                     American Top Team Atlanta 
+                                           43                                             3 
+                                    Ankos MMA                         Arte Suave Copenhagen 
+                                           33                                             9 
+                                 BKK Fighters                        Cesar Gracie Jiu-Jitsu 
+                                           13                                             3 
+                                   Chute Boxe                       Chute Boxe - Diego Lima 
+                                            3                                             2 
+                    CIT Performance Institute                               City Kickboxing 
+                                            7                                            48 
+       Cobrinha Brazilian Jiu-Jitsu & Fitness                          Elevation Fight Team 
+                                            2                                            67 
+                                   Entram Gym                                    Evolve MMA 
+                                            7                                             5 
+                           FactoryX Muay Thai                                  Fearless MMA 
+                                           20                                             8 
+                                  Fight Ready                                Fighting Nerds 
+                                            6                                            12 
+                                   Fortis MMA                                 Gintas Combat 
+                                           33                                             8 
+                       Glendale Fighting Club                                       GOR MMA 
+                                            9                                             3 
+                       Gracie Barra South Jax                              Gracie Jiu-Jitsu 
+                                            5                                            12 
+                       Great Britain Top Team                          Holohan Martial Arts 
+                                           11                                             2 
+                           House Of Champions                                      Icon MMA 
+                                            9                                            27 
+                                     Igor MMA                              Jackson-Wink MMA 
+                                            7                                            16 
+                                       K Dojo                                  KHK MMA Team 
+                                            5                                             9 
+                                Kill Cliff FC                                     Kings MMA 
+                                           66                                            10 
+                               Law School MMA                                     LifeStyle 
+                                            1                                             7 
+                Lions High Performance Centre                                  Lobo Gym MMA 
+                                           15                                            32 
+                                  Marquez MMA                                       MMA Lab 
+                                            7                                            26 
+                                      MMA LAB                            Next Generation UK 
+                                            3                                            19 
+                                   Nova Uniao                           NTG Fight & Fitness 
+                                            4                                             3 
+                                  Paragon BJJ                              Parana Vale Tudo 
+                                            7                                             9 
+                              Polar Bear Team                                          PRVT 
+                                           11                                            27 
+                            Range MMA Academy                                  Renegade MMA 
+                                            5                                            25 
+                                   Roufusport                                          RVCA 
+                                           18                                            36 
+                                Santa Fe Team                                   SBG Ireland 
+                                            1                                             2 
+                       Serra-Longo Fight Team Shore Mixed Martial Arts Centre of Excellence 
+                                           13                                             2 
+                                     Sikjitsu                                 Syndicate MMA 
+                                           13                                            12 
+                                Tatsujin Dojo                               Team Alpha Male 
+                                           10                                            15 
+                                Team Borracha                  Team Compton Training Centre 
+                                            5                                             2 
+                               Team Crossface                             Team Death Clutch 
+                                            3                                            13 
+                              Team Figueiredo                                Team Fish Tank 
+                                           16                                             4 
+                                  Team Kaobon                                 Team Nogueira 
+                                           12                                             4 
+                        Team Remedy BJJ & MMA                 Team Thriving Training Center 
+                                            4                                             3 
+                              Tiger Muay Thai                                      TKMMAFIT 
+                                           16                                             1 
+                                  TriStar Gym                  Universal Fight Team Rzeszow 
+                                            7                                             5 
+                          Valle Flow Striking                       Wajutsu Keishukai Tokyo 
+                                           19                                             2 
+                          Wilkes Martial Arts                                Xtreme Couture 
+                                            4                                            16 
+> print("Frequency Counts for Continent:")
+[1] "Frequency Counts for Continent:"
+> print(frequency_counts_continent)
+
+       Africa          Asia        Europe North America       Oceania South America 
+           31           125           216           406            72           195 
+> print("Frequency Counts for Country:")
+[1] "Frequency Counts for Country:"
+> print(frequency_counts_country)
+
+         Afghanistan            Argentina            Australia              Bahrain 
+                   5                    3                   40                    2 
+              Brazil               Canada                China               Cyprus 
+                 150                   16                   25                    1 
+             Ecuador              England              Georgia              Ireland 
+                  27                  103                   25                    7 
+              Israel              Jamaica                Japan           Kyrgyzstan 
+                   2                    9                    4                   16 
+           Lithuania               Mexico              Moldova              Morocco 
+                   8                   31                   11                    8 
+         Netherlands          New Zealand              Nigeria            Palestine 
+                   3                   32                   16                   19 
+                Peru               Poland             Portugal              Romania 
+                   2                   57                    7                    1 
+              Russia         South Africa                Spain             Suriname 
+                  26                    7                    7                   13 
+              Sweden United Arab Emirates                  USA                Wales 
+                   9                    1                  350                    2 
+> print("Frequency Counts for WT_Class:")
+[1] "Frequency Counts for WT_Class:"
+> print(frequency_counts_wt_class)
+
+         Bantamweight         Featherweight             Flyweight           Heavyweight 
+                  120                   133                    64                   114 
+    Light Heavyweight           Lightweight          Middleweight           Strawweight 
+                   34                   118                   110                    57 
+         Welterweight  Women's Bantamweight Women's Featherweight     Women's Flyweight 
+                  168                    30                    55                    42 
+> print("Frequency Counts for Stance:")
+[1] "Frequency Counts for Stance:"
+> print(frequency_counts_stance)
+
+Orthodox Southpaw   Switch 
+     773      153      119 
+> print("Frequency Counts for Decision:")
+[1] "Frequency Counts for Decision:"
+> print(frequency_counts_decision)
+
+    Decision - Majority        Decision - Split    Decision - Unanimous                    Draw 
+                      7                      85                     411                      12 
+                 KO/TKO              No Contest              Submission TKO - Doctor's Stoppage 
+                    335                      12                     176                       7 
+
+
+
+
+
+
+
+
+
+
+
+Correlation Matrix 
+
 In this section, we perform a thorough examination of our dataset by calculating key summary statistics such as the mean, median, mode, and variance for all relevant numeric variables. This step allows us to understand the central tendencies, variability, and distribution of the data.
 
 Frequency Counts and Unique Counts
