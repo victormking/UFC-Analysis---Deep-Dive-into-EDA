@@ -1,0 +1,12 @@
+Section 1: Obtaining the Data
+
+Section 2: Loading and Organizing the CSV
+In this section, we focus on loading our dataset and ensuring it is properly organized for analysis. We start by loading an older version of our dataset, referred to as old_data, which contains pre-feature-engineered data. This is a crucial step because the original Date and Birthdate columns are properly structured in this older version. By loading this earlier dataset, we can accurately replace and update these columns in our current dataset, ensuring our data is both correct and ready for analysis. Proper data organization at this stage is vital because any inconsistencies or errors in the data structure can lead to misleading results in later stages of analysis.
+
+Section 3: Creating Aggregated Data
+After loading and organizing the data, the next step is to aggregate it. Aggregating data involves summarizing it to create a more concise dataset that still retains the essential information. For this project, we grouped our data by variables such as Fighter, Stance, WT_Class, Date, and Birthdate. By doing this, we can capture unique performance metrics for each fighter, stance, and weight class. Aggregating data is particularly useful when dealing with large datasets, as it reduces the complexity while still preserving critical insights. This step also prepares the data for the more detailed analysis that follows, making it easier to identify patterns and trends.
+
+Section 4: Summary Statistics
+Summary statistics are the heart of any exploratory data analysis (EDA) process, as they provide a snapshot of the data's overall structure and characteristics. In this section, we perform a thorough examination of our dataset by calculating key summary statistics such as the mean, median, mode, and variance for all relevant numeric variables. This step allows us to understand the central tendencies, variability, and distribution of the data.
+
+Section 5: EDA 
