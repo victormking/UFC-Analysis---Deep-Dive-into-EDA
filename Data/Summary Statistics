@@ -1,196 +1,186 @@
-                                                                                    Section 4: Summary Statistics
+summary(historical_data)
 
-   Fighter            Opponent              Date              Country            WT_Class        
- Length:1045        Length:1045        Min.   :2012-01-19   Length:1045        Length:1045       
- Class :character   Class :character   1st Qu.:2019-04-27   Class :character   Class :character  
- Mode  :character   Mode  :character   Median :2021-08-07   Mode  :character   Mode  :character  
-                                       Mean   :2021-01-10                                        
-                                       3rd Qu.:2023-04-15                                        
-                                       Max.   :2024-07-27                                        
-     Height          Weight        Birthdate              Team             Nickname        
- Min.   :61.00   Min.   :114.0   Min.   :1984-02-12   Length:1045        Length:1045       
- 1st Qu.:67.00   1st Qu.:135.0   1st Qu.:1988-03-17   Class :character   Class :character  
- Median :71.00   Median :154.0   Median :1991-04-22   Mode  :character   Mode  :character  
- Mean   :69.94   Mean   :161.8   Mean   :1991-03-29                                        
- 3rd Qu.:73.00   3rd Qu.:171.0   3rd Qu.:1993-09-06                                        
- Max.   :78.00   Max.   :265.0   Max.   :2000-08-21                                        
-    Stance              Reach         Decision              Rnd            Time          
- Length:1045        Min.   :58.00   Length:1045        Min.   :1.000   Length:1045       
- Class :character   1st Qu.:69.00   Class :character   1st Qu.:2.000   Class :character  
- Mode  :character   Median :71.00   Mode  :character   Median :3.000   Mode  :character  
-                    Mean   :71.74                      Mean   :2.492                     
-                    3rd Qu.:75.00                      3rd Qu.:3.000                     
-                    Max.   :81.00                      Max.   :5.000                     
-    Event               Res                 SDBL            SDB_A           SDHL       
- Length:1045        Length:1045        Min.   : 0.000   Min.   : 0.0   Min.   :  0.00  
- Class :character   Class :character   1st Qu.: 1.000   1st Qu.: 2.0   1st Qu.:  6.00  
- Mode  :character   Mode  :character   Median : 4.000   Median : 7.0   Median : 15.00  
-                                       Mean   : 6.976   Mean   :10.6   Mean   : 22.77  
-                                       3rd Qu.:10.000   3rd Qu.:16.0   3rd Qu.: 32.00  
-                                       Max.   :60.000   Max.   :88.0   Max.   :184.00  
-     SDH_A             SDLL            SDL_A              TSL              TS_A            SSL        
- Min.   :  0.00   Min.   : 0.000   Min.   :  0.000   Min.   :  0.00   Min.   :  0.0   Min.   :  0.00  
- 1st Qu.: 19.00   1st Qu.: 1.000   1st Qu.:  1.000   1st Qu.: 28.00   1st Qu.: 52.0   1st Qu.: 19.00  
- Median : 47.00   Median : 5.000   Median :  6.000   Median : 59.00   Median :110.0   Median : 40.00  
- Mean   : 64.29   Mean   : 8.041   Mean   :  9.873   Mean   : 66.81   Mean   :120.9   Mean   : 47.73  
- 3rd Qu.: 93.00   3rd Qu.:10.000   3rd Qu.: 14.000   3rd Qu.: 96.00   3rd Qu.:177.0   3rd Qu.: 68.00  
- Max.   :387.00   Max.   :95.000   Max.   :102.000   Max.   :262.00   Max.   :449.0   Max.   :241.00  
-      SS_A        X.Total_Strikes        KD             X.BODY           X.HEAD           X.LEG       
- Min.   :  0.00   Min.   :  0.00   Min.   :0.0000   Min.   :  0.00   Min.   :  0.00   Min.   :  0.00  
- 1st Qu.: 40.00   1st Qu.: 44.00   1st Qu.:0.0000   1st Qu.: 53.00   1st Qu.: 30.00   1st Qu.: 60.00  
- Median : 82.00   Median : 54.00   Median :0.0000   Median : 71.00   Median : 40.00   Median : 83.00  
- Mean   : 98.38   Mean   : 53.42   Mean   :0.2746   Mean   : 66.49   Mean   : 40.29   Mean   : 70.37  
- 3rd Qu.:143.00   3rd Qu.: 64.00   3rd Qu.:0.0000   3rd Qu.: 86.00   3rd Qu.: 50.00   3rd Qu.:100.00  
- Max.   :445.00   Max.   :100.00   Max.   :5.0000   Max.   :100.00   Max.   :100.00   Max.   :100.00  
-      SCBL            SCB_A            SCHL            SCH_A             SCLL        
- Min.   : 0.000   Min.   : 0.00   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
- 1st Qu.: 0.000   1st Qu.: 0.00   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.: 0.0000  
- Median : 1.000   Median : 1.00   Median : 1.000   Median : 2.000   Median : 0.0000  
- Mean   : 2.076   Mean   : 2.39   Mean   : 2.345   Mean   : 3.769   Mean   : 0.2411  
- 3rd Qu.: 3.000   3rd Qu.: 3.00   3rd Qu.: 3.000   3rd Qu.: 5.000   3rd Qu.: 0.0000  
- Max.   :35.000   Max.   :35.00   Max.   :33.000   Max.   :52.000   Max.   :23.0000  
-     SCL_A               RV               SR                TDL              TD_A       
- Min.   : 0.0000   Min.   :0.0000   Min.   :  0.0000   Min.   : 0.000   Min.   : 0.000  
- 1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.:  0.0000   1st Qu.: 0.000   1st Qu.: 0.000  
- Median : 0.0000   Median :0.0000   Median :  0.0000   Median : 0.000   Median : 1.000  
- Mean   : 0.2651   Mean   :0.1196   Mean   :  0.7722   Mean   : 1.144   Mean   : 2.883  
- 3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.:  0.0000   3rd Qu.: 2.000   3rd Qu.: 4.000  
- Max.   :23.0000   Max.   :3.0000   Max.   :100.0000   Max.   :14.000   Max.   :49.000  
-      TDS             X.TK_ACC           SGBL            SGB_A             SGHL        
- Min.   :0.00000   Min.   :  0.00   Min.   : 0.000   Min.   : 0.000   Min.   :  0.000  
- 1st Qu.:0.00000   1st Qu.:  0.00   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.:  0.000  
- Median :0.00000   Median :  0.00   Median : 0.000   Median : 0.000   Median :  1.000  
- Mean   :0.07847   Mean   : 25.92   Mean   : 0.623   Mean   : 0.734   Mean   :  4.699  
- 3rd Qu.:0.00000   3rd Qu.: 50.00   3rd Qu.: 0.000   3rd Qu.: 0.000   3rd Qu.:  5.000  
- Max.   :5.00000   Max.   :100.00   Max.   :39.000   Max.   :47.000   Max.   :100.000  
-     SGH_A             SGLL            SGL_A              AD               ADTB       
- Min.   :  0.00   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000   Min.   :0.0000  
- 1st Qu.:  0.00   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.: 0.0000   1st Qu.:0.0000  
- Median :  1.00   Median : 0.000   Median : 0.000   Median : 0.0000   Median :0.0000  
- Mean   :  6.57   Mean   : 0.155   Mean   : 0.201   Mean   : 0.4278   Mean   :0.1368  
- 3rd Qu.:  8.00   3rd Qu.: 0.000   3rd Qu.: 0.000   3rd Qu.: 0.0000   3rd Qu.:0.0000  
- Max.   :112.00   Max.   :21.000   Max.   :23.000   Max.   :14.0000   Max.   :7.0000  
-      ADHG              ADTM              ADTS              SM         Southpaw_Stance 
- Min.   : 0.0000   Min.   : 0.0000   Min.   :0.0000   Min.   :0.0000   Min.   :0.0000  
- 1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:0.0000  
- Median : 0.0000   Median : 0.0000   Median :0.0000   Median :0.0000   Median :0.0000  
- Mean   : 0.1464   Mean   : 0.1005   Mean   :0.1225   Mean   :0.3416   Mean   :0.1464  
- 3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.:0.0000   3rd Qu.:0.0000  
- Max.   :15.0000   Max.   :28.0000   Max.   :6.0000   Max.   :5.0000   Max.   :1.0000  
- Orthodox_Stance  Switch_Stance     Time_Seconds   Total_Fight_Time_Seconds Decision_Unanimous
- Min.   :0.0000   Min.   :0.0000   Min.   :  7.0   Min.   :   8.0           Min.   :0.0000    
- 1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:177.0   1st Qu.: 326.0           1st Qu.:0.0000    
- Median :1.0000   Median :0.0000   Median :300.0   Median : 900.0           Median :0.0000    
- Mean   :0.7397   Mean   :0.1139   Mean   :234.6   Mean   : 682.1           Mean   :0.3933    
- 3rd Qu.:1.0000   3rd Qu.:0.0000   3rd Qu.:300.0   3rd Qu.: 900.0           3rd Qu.:1.0000    
- Max.   :1.0000   Max.   :1.0000   Max.   :300.0   Max.   :1500.0           Max.   :1.0000    
-     KO_TKO         Submission     Decision_Split      No_Contest           Draw        
- Min.   :0.0000   Min.   :0.0000   Min.   :0.00000   Min.   :0.00000   Min.   :0.00000  
- 1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:0.00000   1st Qu.:0.00000   1st Qu.:0.00000  
- Median :0.0000   Median :0.0000   Median :0.00000   Median :0.00000   Median :0.00000  
- Mean   :0.3206   Mean   :0.1684   Mean   :0.08134   Mean   :0.01148   Mean   :0.01148  
- 3rd Qu.:1.0000   3rd Qu.:0.0000   3rd Qu.:0.00000   3rd Qu.:0.00000   3rd Qu.:0.00000  
- Max.   :1.0000   Max.   :1.0000   Max.   :1.00000   Max.   :1.00000   Max.   :1.00000  
- Decision_Majority  TKO_Doctors_Stoppage     Africa             Asia            Europe      
- Min.   :0.000000   Min.   :0.000000     Min.   :0.00000   Min.   :0.0000   Min.   :0.0000  
- 1st Qu.:0.000000   1st Qu.:0.000000     1st Qu.:0.00000   1st Qu.:0.0000   1st Qu.:0.0000  
- Median :0.000000   Median :0.000000     Median :0.00000   Median :0.0000   Median :0.0000  
- Mean   :0.006699   Mean   :0.006699     Mean   :0.02967   Mean   :0.1196   Mean   :0.2067  
- 3rd Qu.:0.000000   3rd Qu.:0.000000     3rd Qu.:0.00000   3rd Qu.:0.0000   3rd Qu.:0.0000  
- Max.   :1.000000   Max.   :1.000000     Max.   :1.00000   Max.   :1.0000   Max.   :1.0000  
- North_America    South_America       Oceania       X.Significant_Strikes X.Clinch_Body_Strikes
- Min.   :0.0000   Min.   :0.0000   Min.   :0.0000   Min.   :  0.00        Min.   :  0.00       
- 1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.: 40.00        1st Qu.:  0.00       
- Median :0.0000   Median :0.0000   Median :0.0000   Median : 49.00        Median : 50.00       
- Mean   :0.3885   Mean   :0.1866   Mean   :0.0689   Mean   : 48.98        Mean   : 46.55       
- 3rd Qu.:1.0000   3rd Qu.:0.0000   3rd Qu.:0.0000   3rd Qu.: 58.00        3rd Qu.:100.00       
- Max.   :1.0000   Max.   :1.0000   Max.   :1.0000   Max.   :100.00        Max.   :100.00       
- X.Clinch_Head_Strikes X.Clinch_Leg_Strikes X.Ground_Body_Strikes X.Ground_Head_Strikes
- Min.   :  0.00        Min.   :  0.000      Min.   :  0.00        Min.   :  0.00       
- 1st Qu.:  0.00        1st Qu.:  0.000      1st Qu.:  0.00        1st Qu.:  0.00       
- Median : 42.00        Median :  0.000      Median :  0.00        Median : 50.00       
- Mean   : 40.36        Mean   :  9.928      Mean   : 17.43        Mean   : 41.69       
- 3rd Qu.: 75.00        3rd Qu.:  0.000      3rd Qu.:  0.00        3rd Qu.: 80.00       
- Max.   :100.00        Max.   :100.000      Max.   :180.00        Max.   :138.00       
- X.Ground_Leg_Strikes    Results        Continent        
- Min.   :  0.000      Min.   :0.0000   Length:1045       
- 1st Qu.:  0.000      1st Qu.:0.0000   Class :character  
- Median :  0.000      Median :1.0000   Mode  :character  
- Mean   :  4.976      Mean   :0.6306                     
- 3rd Qu.:  0.000      3rd Qu.:1.0000                     
- Max.   :100.000      Max.   :1.0000                     
-
-
-
-
-  Height Weight Reach Rnd SDBL SDB_A SDHL SDH_A SDLL SDL_A TSL TS_A SSL SS_A X.Total_Strikes KD X.BODY
-1     71    154    71   3    4     7   15    47    5     6  59  110  40   82              54  0     71
-  X.HEAD X.LEG SCBL SCB_A SCHL SCH_A SCLL SCL_A RV SR TDL TD_A TDS X.TK_ACC SGBL SGB_A SGHL SGH_A SGLL
-1     40    83    1     1    1     2    0     0  0  0   0    1   0        0    0     0    1     1    0
-  SGL_A AD ADTB ADHG ADTM ADTS SM Southpaw_Stance Orthodox_Stance Switch_Stance Time_Seconds
-1     0  0    0    0    0    0  0               0               1             0          300
-  Total_Fight_Time_Seconds Decision_Unanimous KO_TKO Submission Decision_Split No_Contest Draw
-1                      900                  0      0          0              0          0    0
-  Decision_Majority TKO_Doctors_Stoppage Africa Asia Europe North_America South_America Oceania
-1                 0                    0      0    0      0             0             0       0
-  X.Significant_Strikes X.Clinch_Body_Strikes X.Clinch_Head_Strikes X.Clinch_Leg_Strikes
-1                    49                    50                    42                    0
-  X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes Results
-1                     0                    50                    0       1
-
-
-  Height Weight Reach Rnd SDBL SDB_A SDHL SDH_A SDLL SDL_A TSL TS_A SSL SS_A X.Total_Strikes KD X.BODY
-1     71    170    71   3    0     0    1     7    0     0  40   10  10   22              50  0    100
-  X.HEAD X.LEG SCBL SCB_A SCHL SCH_A SCLL SCL_A RV SR TDL TD_A TDS X.TK_ACC SGBL SGB_A SGHL SGH_A SGLL
-1     50   100    0     0    0     0    0     0  0  0   0    0   0        0    0     0    0     0    0
-  SGL_A AD ADTB ADHG ADTM ADTS SM Southpaw_Stance Orthodox_Stance Switch_Stance Time_Seconds
-1     0  0    0    0    0    0  0               0               1             0          300
-  Total_Fight_Time_Seconds Decision_Unanimous KO_TKO Submission Decision_Split No_Contest Draw
-1                      900                  0      0          0              0          0    0
-  Decision_Majority TKO_Doctors_Stoppage Africa Asia Europe North_America South_America Oceania
-1                 0                    0      0    0      0             0             0       0
-  X.Significant_Strikes X.Clinch_Body_Strikes X.Clinch_Head_Strikes X.Clinch_Leg_Strikes
-1                    50                     0                     0                    0
-  X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes Results
-1                     0                     0                    0       1
-
-
-
-    Height   Weight    Reach      Rnd    SDBL    SDB_A    SDHL  SDH_A     SDLL    SDL_A     TSL
-1 16.84191 1598.367 25.03171 1.158219 59.1364 118.0349 586.745 3469.8 103.6602 149.7855 2481.22
-      TS_A      SSL     SS_A X.Total_Strikes        KD   X.BODY   X.HEAD    X.LEG    SCBL    SCB_A
-1 7180.077 1440.623 5765.407        301.9281 0.3296724 749.5778 274.8168 1227.861 13.7711 17.38765
-      SCHL    SCH_A     SCLL    SCL_A        RV       SR     TDL  TD_A       TDS X.TK_ACC     SGBL
-1 12.59577 29.61822 1.231064 1.334842 0.1533025 58.75076 3.47048 16.54 0.1470934 1213.968 6.679549
-     SGB_A     SGHL    SGH_A      SGLL    SGL_A       AD     ADTB      ADHG     ADTM      ADTS
-1 9.618816 82.15522 161.8832 0.9970174 1.459578 1.656892 0.338536 0.6404205 1.216906 0.2512658
-        SM Southpaw_Stance Orthodox_Stance Switch_Stance Time_Seconds Total_Fight_Time_Seconds
-1 0.556551       0.1250949       0.1927221     0.1010046     7804.436                 143350.5
-  Decision_Unanimous   KO_TKO Submission Decision_Split No_Contest       Draw Decision_Majority
-1           0.238844 0.218015  0.1401896     0.07479514 0.01136226 0.01136226       0.006660067
-  TKO_Doctors_Stoppage     Africa      Asia    Europe North_America South_America    Oceania
-1          0.006660067 0.02881263 0.1054098 0.1641313      0.237799     0.1519276 0.06421383
-  X.Significant_Strikes X.Clinch_Body_Strikes X.Clinch_Head_Strikes X.Clinch_Leg_Strikes
-1              224.1366              2176.631               1498.74             852.2429
-  X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes  Results
-1              1375.916              1709.628             440.4659 0.233161
+   Fighter            Opponent              Date              Country            WT_Class             Weight     
+ Length:1046        Length:1046        Min.   :2012-01-19   Length:1046        Length:1046        Min.   :114.0  
+ Class :character   Class :character   1st Qu.:2019-04-28   Class :character   Class :character   1st Qu.:135.0  
+ Mode  :character   Mode  :character   Median :2021-08-07   Mode  :character   Mode  :character   Median :154.0  
+                                       Mean   :2021-01-10                                         Mean   :161.8  
+                                       3rd Qu.:2023-04-15                                         3rd Qu.:171.0  
+                                       Max.   :2024-07-27                                         Max.   :265.0  
+   Birthdate              Height          Team             Nickname            Stance              Reach      
+ Min.   :1984-02-12   Min.   :61.00   Length:1046        Length:1046        Length:1046        Min.   :58.00  
+ 1st Qu.:1988-03-17   1st Qu.:67.00   Class :character   Class :character   Class :character   1st Qu.:69.00  
+ Median :1991-04-22   Median :71.00   Mode  :character   Mode  :character   Mode  :character   Median :71.00  
+ Mean   :1991-03-30   Mean   :69.93                                                            Mean   :71.73  
+ 3rd Qu.:1993-09-06   3rd Qu.:73.00                                                            3rd Qu.:75.00  
+ Max.   :2000-08-21   Max.   :78.00                                                            Max.   :81.00  
+   Decision              Rnd            Time            Time_Seconds   Total_Fight_Time_Seconds    Event          
+ Length:1046        Min.   :1.000   Length:1046        Min.   :  7.0   Min.   :   8.0           Length:1046       
+ Class :character   1st Qu.:2.000   Class :character   1st Qu.:177.0   1st Qu.: 326.2           Class :character  
+ Mode  :character   Median :3.000   Mode  :character   Median :300.0   Median : 900.0           Mode  :character  
+                    Mean   :2.492                      Mean   :234.7   Mean   : 682.4                             
+                    3rd Qu.:3.000                      3rd Qu.:300.0   3rd Qu.: 900.0                             
+                    Max.   :5.000                      Max.   :300.0   Max.   :1500.0                             
+     Res               Results      Decision_Unanimous     KO_TKO         Submission     Decision_Split   
+ Length:1046        Min.   :0.000   Min.   :0.0000     Min.   :0.0000   Min.   :0.0000   Min.   :0.00000  
+ Class :character   1st Qu.:0.000   1st Qu.:0.0000     1st Qu.:0.0000   1st Qu.:0.0000   1st Qu.:0.00000  
+ Mode  :character   Median :1.000   Median :0.0000     Median :0.0000   Median :0.0000   Median :0.00000  
+                    Mean   :0.631   Mean   :0.3939     Mean   :0.3203   Mean   :0.1683   Mean   :0.08126  
+                    3rd Qu.:1.000   3rd Qu.:1.0000     3rd Qu.:1.0000   3rd Qu.:0.0000   3rd Qu.:0.00000  
+                    Max.   :1.000   Max.   :1.0000     Max.   :1.0000   Max.   :1.0000   Max.   :1.00000  
+      Draw           No_Contest      Decision_Majority  TKO_Doctors_Stoppage Southpaw_Stance  Orthodox_Stance
+ Min.   :0.00000   Min.   :0.00000   Min.   :0.000000   Min.   :0.000000     Min.   :0.0000   Min.   :0.00   
+ 1st Qu.:0.00000   1st Qu.:0.00000   1st Qu.:0.000000   1st Qu.:0.000000     1st Qu.:0.0000   1st Qu.:0.00   
+ Median :0.00000   Median :0.00000   Median :0.000000   Median :0.000000     Median :0.0000   Median :1.00   
+ Mean   :0.01147   Mean   :0.01147   Mean   :0.006692   Mean   :0.006692     Mean   :0.1463   Mean   :0.74   
+ 3rd Qu.:0.00000   3rd Qu.:0.00000   3rd Qu.:0.000000   3rd Qu.:0.000000     3rd Qu.:0.0000   3rd Qu.:1.00   
+ Max.   :1.00000   Max.   :1.00000   Max.   :1.000000   Max.   :1.000000     Max.   :1.0000   Max.   :1.00   
+ Switch_Stance     Continent             Africa             Asia             Europe       South_America   
+ Min.   :0.0000   Length:1046        Min.   :0.00000   Min.   :0.00000   Min.   :0.0000   Min.   :0.0000  
+ 1st Qu.:0.0000   Class :character   1st Qu.:0.00000   1st Qu.:0.00000   1st Qu.:0.0000   1st Qu.:0.0000  
+ Median :0.0000   Mode  :character   Median :0.00000   Median :0.00000   Median :0.0000   Median :0.0000  
+ Mean   :0.1138                      Mean   :0.02964   Mean   :0.02772   Mean   :0.1845   Mean   :0.1491  
+ 3rd Qu.:0.0000                      3rd Qu.:0.00000   3rd Qu.:0.00000   3rd Qu.:0.0000   3rd Qu.:0.0000  
+ Max.   :1.0000                      Max.   :1.00000   Max.   :1.00000   Max.   :1.0000   Max.   :1.0000  
+ North_America       Oceania             SDBL            SDB_A           SDHL            SDH_A       
+ Min.   :0.0000   Min.   :0.00000   Min.   : 0.000   Min.   : 0.0   Min.   :  0.00   Min.   :  0.00  
+ 1st Qu.:0.0000   1st Qu.:0.00000   1st Qu.: 1.000   1st Qu.: 2.0   1st Qu.:  6.00   1st Qu.: 19.00  
+ Median :0.0000   Median :0.00000   Median : 4.000   Median : 7.0   Median : 15.00   Median : 47.00  
+ Mean   :0.3795   Mean   :0.06883   Mean   : 6.979   Mean   :10.6   Mean   : 22.76   Mean   : 64.25  
+ 3rd Qu.:1.0000   3rd Qu.:0.00000   3rd Qu.:10.000   3rd Qu.:16.0   3rd Qu.: 31.75   3rd Qu.: 93.00  
+ Max.   :1.0000   Max.   :1.00000   Max.   :60.000   Max.   :88.0   Max.   :184.00   Max.   :387.00  
+      SDLL            SDL_A              TSL             TS_A            SSL              SS_A       
+ Min.   : 0.000   Min.   :  0.000   Min.   :  0.0   Min.   :  0.0   Min.   :  0.00   Min.   :  0.00  
+ 1st Qu.: 1.000   1st Qu.:  1.000   1st Qu.: 28.0   1st Qu.: 52.0   1st Qu.: 19.00   1st Qu.: 40.00  
+ Median : 4.500   Median :  6.000   Median : 59.0   Median :109.5   Median : 40.00   Median : 82.00  
+ Mean   : 8.034   Mean   :  9.865   Mean   : 66.8   Mean   :120.8   Mean   : 47.73   Mean   : 98.33  
+ 3rd Qu.:10.000   3rd Qu.: 14.000   3rd Qu.: 96.0   3rd Qu.:176.8   3rd Qu.: 68.00   3rd Qu.:143.00  
+ Max.   :95.000   Max.   :102.000   Max.   :262.0   Max.   :449.0   Max.   :241.00   Max.   :445.00  
+       KD              SCBL            SCB_A             SCHL            SCH_A             SCLL        
+ Min.   :0.0000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.:0.0000   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.: 0.0000  
+ Median :0.0000   Median : 1.000   Median : 1.000   Median : 1.000   Median : 2.000   Median : 0.0000  
+ Mean   :0.2753   Mean   : 2.088   Mean   : 2.402   Mean   : 2.342   Mean   : 3.768   Mean   : 0.2409  
+ 3rd Qu.:0.0000   3rd Qu.: 3.000   3rd Qu.: 3.000   3rd Qu.: 3.000   3rd Qu.: 5.000   3rd Qu.: 0.0000  
+ Max.   :5.0000   Max.   :35.000   Max.   :35.000   Max.   :33.000   Max.   :52.000   Max.   :23.0000  
+     SCL_A               RV               SR                TDL              TD_A             TDS         
+ Min.   : 0.0000   Min.   :0.0000   Min.   :  0.0000   Min.   : 0.000   Min.   : 0.000   Min.   :0.00000  
+ 1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.:  0.0000   1st Qu.: 0.000   1st Qu.: 0.000   1st Qu.:0.00000  
+ Median : 0.0000   Median :0.0000   Median :  0.0000   Median : 0.000   Median : 1.000   Median :0.00000  
+ Mean   : 0.2648   Mean   :0.1205   Mean   :  0.7715   Mean   : 1.145   Mean   : 2.882   Mean   :0.07839  
+ 3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.:  0.0000   3rd Qu.: 2.000   3rd Qu.: 4.000   3rd Qu.:0.00000  
+ Max.   :23.0000   Max.   :3.0000   Max.   :100.0000   Max.   :14.000   Max.   :49.000   Max.   :5.00000  
+      SGBL             SGB_A              SGHL             SGH_A              SGLL             SGL_A        
+ Min.   : 0.0000   Min.   : 0.0000   Min.   :  0.000   Min.   :  0.000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:  0.000   1st Qu.:  0.000   1st Qu.: 0.0000   1st Qu.: 0.0000  
+ Median : 0.0000   Median : 0.0000   Median :  1.000   Median :  1.000   Median : 0.0000   Median : 0.0000  
+ Mean   : 0.6224   Mean   : 0.7333   Mean   :  4.695   Mean   :  6.565   Mean   : 0.1549   Mean   : 0.2008  
+ 3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.:  5.000   3rd Qu.:  7.750   3rd Qu.: 0.0000   3rd Qu.: 0.0000  
+ Max.   :39.0000   Max.   :47.0000   Max.   :100.000   Max.   :112.000   Max.   :21.0000   Max.   :23.0000  
+       AD               ADTB             ADHG              ADTM              ADTS              SM        
+ Min.   : 0.0000   Min.   :0.0000   Min.   : 0.0000   Min.   : 0.0000   Min.   :0.0000   Min.   :0.0000  
+ 1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.:0.0000   1st Qu.:0.0000  
+ Median : 0.0000   Median :0.0000   Median : 0.0000   Median : 0.0000   Median :0.0000   Median :0.0000  
+ Mean   : 0.4273   Mean   :0.1367   Mean   : 0.1463   Mean   : 0.1004   Mean   :0.1224   Mean   :0.3413  
+ 3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.:0.0000   3rd Qu.:0.0000  
+ Max.   :14.0000   Max.   :7.0000   Max.   :15.0000   Max.   :28.0000   Max.   :6.0000   Max.   :5.0000  
+ X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes X.Clinch_Body_Strikes X.Clinch_Head_Strikes
+ Min.   :  0.00        Min.   :  0.00        Min.   :  0.000      Min.   :  0.0         Min.   :  0.00       
+ 1st Qu.:  0.00        1st Qu.:  0.00        1st Qu.:  0.000      1st Qu.:  0.0         1st Qu.:  0.00       
+ Median :  0.00        Median : 50.00        Median :  0.000      Median : 50.0         Median : 42.00       
+ Mean   : 17.41        Mean   : 41.75        Mean   :  4.971      Mean   : 46.6         Mean   : 40.33       
+ 3rd Qu.:  0.00        3rd Qu.: 80.00        3rd Qu.:  0.000      3rd Qu.:100.0         3rd Qu.: 74.50       
+ Max.   :180.00        Max.   :138.00        Max.   :100.000      Max.   :100.0         Max.   :100.00       
+ X.Clinch_Leg_Strikes     X.LEG            X.BODY           X.HEAD       X.Total_Strikes     X.TK_ACC  
+ Min.   :  0.000      Min.   :  0.00   Min.   :  0.00   Min.   :  0.00   Min.   :  0.00   Min.   :  0  
+ 1st Qu.:  0.000      1st Qu.: 60.00   1st Qu.: 53.00   1st Qu.: 30.00   1st Qu.: 44.00   1st Qu.:  0  
+ Median :  0.000      Median : 83.00   Median : 71.00   Median : 40.00   Median : 54.00   Median :  0  
+ Mean   :  9.919      Mean   : 70.35   Mean   : 66.52   Mean   : 40.31   Mean   : 53.66   Mean   : 26  
+ 3rd Qu.:  0.000      3rd Qu.:100.00   3rd Qu.: 86.00   3rd Qu.: 50.00   3rd Qu.: 64.00   3rd Qu.: 50  
+ Max.   :100.000      Max.   :100.00   Max.   :100.00   Max.   :100.00   Max.   :100.00   Max.   :100  
+ X.Significant_Strikes
+ Min.   :  0.00       
+ 1st Qu.: 40.35       
+ Median : 49.24       
+ Mean   : 49.45       
+ 3rd Qu.: 58.30       
+ Max.   :100.00       
+> # Calculate median values for key numeric variables
+> median_values <- historical_data %>%
++  summarise(across(where(is.numeric), \(x) median(x, na.rm = TRUE)))
+> # Calculate mode values for key numeric variables
+> mode_values <- historical_data %>%
++  summarise(across(where(is.numeric), ~as.numeric(names(sort(table(.), decreasing = TRUE)[1]))))
+> # Calculate variance for key numeric variables
+> variance_values <- historical_data %>%
++  summarise(across(where(is.numeric), \(x) var(x, na.rm = TRUE)))
+> # Display the calculated median, mode, and variance
+> print("Median Values:")
+[1] "Median Values:"
+> print(median_values)
+  Weight Height Reach Rnd Time_Seconds Total_Fight_Time_Seconds Results Decision_Unanimous KO_TKO Submission
+1    154     71    71   3          300                      900       1                  0      0          0
+  Decision_Split Draw No_Contest Decision_Majority TKO_Doctors_Stoppage Southpaw_Stance Orthodox_Stance
+1              0    0          0                 0                    0               0               1
+  Switch_Stance Africa Asia Europe South_America North_America Oceania SDBL SDB_A SDHL SDH_A SDLL SDL_A TSL  TS_A
+1             0      0    0      0             0             0       0    4     7   15    47  4.5     6  59 109.5
+  SSL SS_A KD SCBL SCB_A SCHL SCH_A SCLL SCL_A RV SR TDL TD_A TDS SGBL SGB_A SGHL SGH_A SGLL SGL_A AD ADTB ADHG ADTM
+1  40   82  0    1     1    1     2    0     0  0  0   0    1   0    0     0    1     1    0     0  0    0    0    0
+  ADTS SM X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes X.Clinch_Body_Strikes
+1    0  0                     0                    50                    0                    50
+  X.Clinch_Head_Strikes X.Clinch_Leg_Strikes X.LEG X.BODY X.HEAD X.Total_Strikes X.TK_ACC X.Significant_Strikes
+1                    42                    0    83     71     40              54        0              49.24242
+> print("Mode Values:")
+[1] "Mode Values:"
+> print(mode_values)
+  Weight Height Reach Rnd Time_Seconds Total_Fight_Time_Seconds Results Decision_Unanimous KO_TKO Submission
+1    170     71    71   3          300                      900       1                  0      0          0
+  Decision_Split Draw No_Contest Decision_Majority TKO_Doctors_Stoppage Southpaw_Stance Orthodox_Stance
+1              0    0          0                 0                    0               0               1
+  Switch_Stance Africa Asia Europe South_America North_America Oceania SDBL SDB_A SDHL SDH_A SDLL SDL_A TSL TS_A SSL
+1             0      0    0      0             0             0       0    0     0    1     7    0     0  40   10  10
+  SS_A KD SCBL SCB_A SCHL SCH_A SCLL SCL_A RV SR TDL TD_A TDS SGBL SGB_A SGHL SGH_A SGLL SGL_A AD ADTB ADHG ADTM
+1   22  0    0     0    0     0    0     0  0  0   0    0   0    0     0    0     0    0     0  0    0    0    0
+  ADTS SM X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes X.Clinch_Body_Strikes
+1    0  0                     0                     0                    0                     0
+  X.Clinch_Head_Strikes X.Clinch_Leg_Strikes X.LEG X.BODY X.HEAD X.Total_Strikes X.TK_ACC X.Significant_Strikes
+1                     0                    0   100    100     50              50        0                    50
+> print("Variance Values:")
+[1] "Variance Values:"
+> print(variance_values)
+    Weight   Height    Reach      Rnd Time_Seconds Total_Fight_Time_Seconds   Results Decision_Unanimous    KO_TKO
+1 1598.845 16.84062 25.05113 1.157358     7801.058                 143258.7 0.2330683          0.2389673 0.2179046
+  Submission Decision_Split       Draw No_Contest Decision_Majority TKO_Doctors_Stoppage Southpaw_Stance
+1  0.1400825     0.07472989 0.01135151 0.01135151       0.006653737          0.006653737       0.1249957
+  Orthodox_Stance Switch_Stance    Africa      Asia    Europe South_America North_America    Oceania     SDBL
+1       0.1926025     0.1009203 0.0287859 0.0269818 0.1506116     0.1270184      0.235715 0.06415692 59.08855
+     SDB_A     SDHL    SDH_A     SDLL    SDL_A      TSL     TS_A      SSL     SS_A        KD     SCBL    SCB_A
+1 117.9221 586.2748 3468.529 103.6084 149.7014 2479.116 7176.746 1439.301 5762.221 0.3298599 13.91762 17.52302
+      SCHL    SCH_A     SCLL    SCL_A        RV       SR      TDL     TD_A       TDS     SGBL    SGB_A     SGHL
+1 12.58897 29.59287 1.229941 1.333632 0.1538968 58.69511 3.467858 16.52492 0.1469586 6.673528 9.610127 82.08968
+    SGH_A      SGLL   SGL_A       AD      ADTB      ADHG     ADTM      ADTS      SM X.Ground_Body_Strikes
+1 161.758 0.9960863 1.45822 1.655481 0.3382299 0.6398282 1.215751 0.2510397 0.55613              1374.889
+  X.Ground_Head_Strikes X.Ground_Leg_Strikes X.Clinch_Body_Strikes X.Clinch_Head_Strikes X.Clinch_Leg_Strikes
+1              1711.242             440.0681              2177.279              1498.863             851.5216
+     X.LEG   X.BODY   X.HEAD X.Total_Strikes X.TK_ACC X.Significant_Strikes
+1 1227.082 749.6928 275.2359        291.4984 1218.057              225.0444
 > # Count the number of unique fighters
 > num_fighters <- historical_data %>% distinct(Fighter) %>% nrow()
 > # Count the number of unique countries
 > num_countries <- historical_data %>% distinct(Country) %>% nrow()
 > # Get the distribution of fighters by country
 > fighters_by_country <- historical_data %>%
-+   group_by(Country) %>%
-+   summarise(Num_Fighters = n_distinct(Fighter)) %>%
-+   arrange(desc(Num_Fighters))
++  group_by(Country) %>%
++  summarise(Num_Fighters = n_distinct(Fighter)) %>%
++  arrange(desc(Num_Fighters))
 > # Analyze the time frame of fights
 > time_frame <- range(historical_data$Date, na.rm = TRUE)
 > # results
 > list(
-+   Number_of_Fighters = num_fighters,
-+   Number_of_Countries = num_countries,
-+   Fighters_by_Country = fighters_by_country,
-+   Time_Frame = time_frame
++  Number_of_Fighters = num_fighters,
++  Number_of_Countries = num_countries,
++  Fighters_by_Country = fighters_by_country,
++  Time_Frame = time_frame
 + )
 $Number_of_Fighters
 [1] 128
@@ -232,7 +222,7 @@ $Time_Frame
 > print(frequency_counts_results)
 
   D   L   W 
- 24 362 659 
+ 24 362 660 
 > print("Frequency Counts for Team:")
 [1] "Frequency Counts for Team:"
 > print(frequency_counts_team)
@@ -262,7 +252,7 @@ $Time_Frame
                            FactoryX Muay Thai                                  Fearless MMA 
                                            20                                             8 
                                   Fight Ready                                Fighting Nerds 
-                                            6                                            12 
+                                            6                                            13 
                                    Fortis MMA                                 Gintas Combat 
                                            33                                             8 
                        Glendale Fighting Club                                       GOR MMA 
@@ -328,61 +318,251 @@ $Time_Frame
 > print(frequency_counts_continent)
 
        Africa          Asia        Europe North America       Oceania South America 
-           31           125           216           406            72           195 
+           31            75           259           409            72           200 
 > print("Frequency Counts for Country:")
 [1] "Frequency Counts for Country:"
 > print(frequency_counts_country)
 
-         Afghanistan            Argentina            Australia              Bahrain 
-                   5                    3                   40                    2 
-              Brazil               Canada                China               Cyprus 
-                 150                   16                   25                    1 
-             Ecuador              England              Georgia              Ireland 
-                  27                  103                   25                    7 
-              Israel              Jamaica                Japan           Kyrgyzstan 
-                   2                    9                    4                   16 
-           Lithuania               Mexico              Moldova              Morocco 
-                   8                   31                   11                    8 
-         Netherlands          New Zealand              Nigeria            Palestine 
-                   3                   32                   16                   19 
-                Peru               Poland             Portugal              Romania 
-                   2                   57                    7                    1 
-              Russia         South Africa                Spain             Suriname 
-                  26                    7                    7                   13 
-              Sweden United Arab Emirates                  USA                Wales 
-                   9                    1                  350                    2 
+         Afghanistan            Argentina            Australia              Bahrain               Brazil 
+                   5                    3                   40                    2                  151 
+              Canada                China               Cyprus              Ecuador              England 
+                  16                   25                    1                   27                  103 
+             Georgia              Ireland               Israel              Jamaica                Japan 
+                  25                    7                    2                    9                    4 
+          Kyrgyzstan            Lithuania               Mexico              Moldova              Morocco 
+                  16                    8                   31                   11                    8 
+         Netherlands          New Zealand              Nigeria            Palestine                 Peru 
+                   3                   32                   16                   19                    2 
+              Poland             Portugal              Romania               Russia         South Africa 
+                  57                    7                    1                   26                    7 
+               Spain             Suriname               Sweden United Arab Emirates                  USA 
+                   7                   13                    9                    1                  350 
+               Wales 
+                   2 
 > print("Frequency Counts for WT_Class:")
 [1] "Frequency Counts for WT_Class:"
 > print(frequency_counts_wt_class)
 
-         Bantamweight         Featherweight             Flyweight           Heavyweight 
-                  120                   133                    64                   114 
-    Light Heavyweight           Lightweight          Middleweight           Strawweight 
-                   34                   118                   110                    57 
-         Welterweight  Women's Bantamweight Women's Featherweight     Women's Flyweight 
-                  168                    30                    55                    42 
+        Bantamweight        Featherweight            Flyweight          Heavyweight    Light Heavyweight 
+                 120                  133                   64                  114                   34 
+         Lightweight         Middleweight         Welterweight Women's Bantamweight    Women's Flyweight 
+                 118                  110                  168                   30                   69 
+ Women's Strawweight 
+                  86 
 > print("Frequency Counts for Stance:")
 [1] "Frequency Counts for Stance:"
 > print(frequency_counts_stance)
 
 Orthodox Southpaw   Switch 
-     773      153      119 
+     774      153      119 
 > print("Frequency Counts for Decision:")
 [1] "Frequency Counts for Decision:"
 > print(frequency_counts_decision)
 
     Decision - Majority        Decision - Split    Decision - Unanimous                    Draw 
-                      7                      85                     411                      12 
+                      7                      85                     412                      12 
                  KO/TKO              No Contest              Submission TKO - Doctor's Stoppage 
                     335                      12                     176                       7 
-
-
-
-
-
-
-
-
-
-
+> # Correlation matrix for numeric variables
+> correlation_matrix <- cor(historical_data[sapply(historical_data, is.numeric)])
+> # View the correlation matrix
+> print("Correlation Matrix:")
+[1] "Correlation Matrix:"
+> print(correlation_matrix)
+                                Weight       Height        Reach           Rnd  Time_Seconds
+Weight                    1.0000000000  0.809832370  0.773535038 -0.1175287652 -0.1957305510
+Height                    0.8098323701  1.000000000  0.927106186 -0.0808559475 -0.1817163305
+Reach                     0.7735350380  0.927106186  1.000000000 -0.0744050299 -0.1806207676
+Rnd                      -0.1175287652 -0.080855948 -0.074405030  1.0000000000  0.5489326375
+Time_Seconds             -0.1957305510 -0.181716331 -0.180620768  0.5489326375  1.0000000000
+Total_Fight_Time_Seconds -0.1458910083 -0.111349935 -0.105593604  0.9807926477  0.7014276156
+Results                  -0.0037324226  0.002674607  0.008540775 -0.0164944558  0.0007840607
+Decision_Unanimous       -0.0939557599 -0.090071713 -0.093683585  0.5607177552  0.5943390916
+KO_TKO                    0.2239605945  0.205860229  0.200953701 -0.5010370120 -0.5625106754
+Submission               -0.0615430925 -0.056316202 -0.030845264 -0.2986303695 -0.2449969655
+Decision_Split           -0.1279807370 -0.111227333 -0.118899249  0.2119911798  0.2201525198
+Draw                     -0.0380604415 -0.013588088 -0.022885862  0.1009515918  0.0797455110
+No_Contest                0.0203414502  0.034562372  0.020182105 -0.0493264419 -0.1002465330
+Decision_Majority         0.0086528081 -0.018691010 -0.028375410  0.0823696982  0.0607599122
+                         Total_Fight_Time_Seconds       Results Decision_Unanimous        KO_TKO   Submission
+Weight                               -0.145891008 -0.0037324226      -0.0939557599  0.2239605945 -0.061543093
+Height                               -0.111349935  0.0026746065      -0.0900717131  0.2058602290 -0.056316202
+Reach                                -0.105593604  0.0085407755      -0.0936835855  0.2009537008 -0.030845264
+Rnd                                   0.980792648 -0.0164944558       0.5607177552 -0.5010370120 -0.298630369
+Time_Seconds                          0.701427616  0.0007840607       0.5943390916 -0.5625106754 -0.244996966
+Total_Fight_Time_Seconds              1.000000000 -0.0138818041       0.6168139242 -0.5584970445 -0.311812294
+Results                              -0.013881804  1.0000000000       0.0204292187  0.0451096449  0.015614669
+Decision_Unanimous                    0.616813924  0.0204292187       1.0000000000 -0.5533393839 -0.362577364
+KO_TKO                               -0.558497045  0.0451096449      -0.5533393839  1.0000000000 -0.308733894
+Submission                           -0.311812294  0.0156146692      -0.3625773635 -0.3087338941  1.000000000
+Decision_Split                        0.232137777 -0.0190909332      -0.2397462087 -0.2041434134 -0.133765611
+Draw                                  0.104690069 -0.1408668065      -0.0868429030 -0.0739465568 -0.048453713
+No_Contest                           -0.065453480 -0.1408668065      -0.0868429030 -0.0739465568 -0.048453713
+Decision_Majority                     0.084414974  0.0141712259      -0.0661675761 -0.0563415576 -0.036917982
+                         Decision_Split         Draw   No_Contest Decision_Majority TKO_Doctors_Stoppage
+Weight                     -0.127980737 -0.038060442  0.020341450      8.652808e-03         0.0071858501
+Height                     -0.111227333 -0.013588088  0.034562372     -1.869101e-02        -0.0158322888
+Reach                      -0.118899249 -0.022885862  0.020182105     -2.837541e-02        -0.0166559601
+Rnd                         0.211991180  0.100951592 -0.049326442      8.236970e-02         0.0169409897
+Time_Seconds                0.220152520  0.079745511 -0.100246533      6.075991e-02         0.0096229564
+Total_Fight_Time_Seconds    0.232137777  0.104690069 -0.065453480      8.441497e-02         0.0166910870
+Results                    -0.019090933 -0.140866806 -0.140866806      1.417123e-02        -0.0344291095
+Decision_Unanimous         -0.239746209 -0.086842903 -0.086842903     -6.616758e-02        -0.0661675761
+KO_TKO                     -0.204143413 -0.073946557 -0.073946557     -5.634156e-02        -0.0563415576
+Submission                 -0.133765611 -0.048453713 -0.048453713     -3.691798e-02        -0.0369179820
+Decision_Split              1.000000000 -0.032038939 -0.032038939     -2.441119e-02        -0.0244111936
+Draw                       -0.032038939  1.000000000 -0.011605416     -8.842429e-03        -0.0088424294
+No_Contest                 -0.032038939 -0.011605416  1.000000000     -8.842429e-03        -0.0088424294
+Decision_Majority          -0.024411194 -0.008842429 -0.008842429      1.000000e+00        -0.0067372474
+                         Southpaw_Stance Orthodox_Stance Switch_Stance        Africa         Asia       Europe
+Weight                      3.124757e-02    0.0070352228 -0.0444945304  0.0553797291  0.024503383  0.150475969
+Height                      2.644374e-02   -0.1110198907  0.1239413220  0.1636159733  0.070857017  0.112800832
+Reach                      -1.546917e-02   -0.0629911900  0.1042361806  0.1852456933 -0.029277920  0.075975427
+Rnd                         2.432969e-02   -0.0812362723  0.0851488673  0.1244478984 -0.055658512 -0.032143232
+Time_Seconds               -8.288386e-03   -0.0140267597  0.0286017395  0.0501828228  0.006077903 -0.022654235
+Total_Fight_Time_Seconds    1.881172e-02   -0.0725431107  0.0792805056  0.1178267046 -0.046041524 -0.032694898
+Results                     2.500965e-02   -0.0197590228 -0.0005368631  0.0518695790 -0.039801001  0.021563054
+Decision_Unanimous          9.612828e-03   -0.0127759628  0.0069514503  0.0321868282 -0.040787803  0.050344739
+KO_TKO                     -5.803875e-03    0.0005269506  0.0057311947  0.0008663436  0.083768800 -0.020134269
+Submission                 -5.378884e-03    0.0277703518 -0.0323777319 -0.0484647703 -0.044820793  0.023228533
+Decision_Split              5.613220e-03   -0.0151291866  0.0146535424  0.0099216285  0.013711483 -0.069305810
+Draw                        6.217526e-03   -0.0384660586  0.0462202053  0.0341110538 -0.018191515 -0.028099569
+No_Contest                  6.217526e-03    0.0024652713 -0.0103252155 -0.0188268724 -0.018191515 -0.004956144
+Decision_Majority          -7.930705e-04    0.0219268155 -0.0294086345 -0.0143446208 -0.013860528  0.021414515
+                         South_America North_America      Oceania         SDBL         SDB_A          SDHL
+Weight                   -0.1867944570 -0.0570007794  0.068061613 -0.144181670 -1.802173e-01 -0.1587872532
+Height                   -0.3027468574  0.0481202879  0.022785037 -0.077521218 -1.066265e-01 -0.1378271989
+Reach                    -0.2649000765  0.0391477742  0.049426113 -0.083321478 -1.115996e-01 -0.1285512804
+Rnd                      -0.0544264727  0.0009826242 -0.043719398  0.472338479  5.026847e-01  0.4891887170
+Time_Seconds              0.0102321878 -0.0196399062 -0.047428689  0.331049262  3.631562e-01  0.3577478925
+Total_Fight_Time_Seconds -0.0440215468 -0.0037451812 -0.048347088  0.480013324  5.133817e-01  0.5006117134
+Results                   0.0532138124 -0.0551048666 -0.026843620  0.032460272  1.195338e-02  0.0966386290
+Decision_Unanimous       -0.0134322882 -0.0458476516 -0.056877296  0.264507777  3.001188e-01  0.2951466853
+KO_TKO                    0.0002199609 -0.0470637466  0.072360501 -0.234404001 -2.704762e-01 -0.2547185123
+Submission                0.0269126049  0.0537193634 -0.021346341 -0.180708421 -1.930679e-01 -0.2164973017
+Decision_Split            0.0129959380  0.0197485797  0.029701571  0.153370265  1.682082e-01  0.1823281306
+Draw                     -0.0199008604  0.0452409844  0.006169852  0.038853308  5.605477e-02  0.0325854588
+No_Contest               -0.0451021920  0.0637406207 -0.029289848  0.013147704  5.601523e-03 -0.0382644908
+Decision_Majority        -0.0014475839  0.0082931602 -0.022316599  0.007855478 -2.334157e-04  0.0419872313
+                                SDH_A         SDLL         SDL_A           TSL         TS_A          SSL
+Weight                   -0.173614902 -0.081642602 -8.996997e-02 -0.1636942020 -0.187948814 -0.166072492
+Height                   -0.154966781 -0.046336437 -5.186427e-02 -0.1747680337 -0.186604163 -0.151387796
+Reach                    -0.138766258 -0.053330757 -5.986679e-02 -0.1576173169 -0.168614496 -0.143745794
+Rnd                       0.567075631  0.408825741  4.171130e-01  0.6304694190  0.687764263  0.588942858
+Time_Seconds              0.416203337  0.284369836  2.940912e-01  0.4639269592  0.509835312  0.424757200
+Total_Fight_Time_Seconds  0.580666473  0.414963364  4.242984e-01  0.6458586730  0.705426722  0.601308669
+Results                   0.041016701  0.035497299  2.445753e-02  0.1969859453  0.134021768  0.164447128
+Decision_Unanimous        0.338860277  0.258439087  2.597549e-01  0.3925322384  0.429507739  0.365042621
+KO_TKO                   -0.317827830 -0.196468763 -2.043813e-01 -0.3453270701 -0.388444900 -0.289540988
+Submission               -0.230396072 -0.176346516 -1.785158e-01 -0.2267886142 -0.257757079 -0.256557552
+Decision_Split            0.227570677  0.125207238  1.391774e-01  0.1562286719  0.212541032  0.178657019
+Draw                      0.037667867  0.015518548  2.467803e-02  0.0866622637  0.078613657  0.040549950
+No_Contest               -0.043159798 -0.037424703 -4.065516e-02 -0.0446604177 -0.052322612 -0.049886669
+Decision_Majority         0.032119515  0.010095133 -5.408269e-05  0.0863320798  0.060578387  0.040172686
+                                  SS_A           KD         SCBL        SCB_A          SCHL        SCH_A
+Weight                   -1.845801e-01  0.105356516 -0.143641204 -0.154008727 -0.0234031559 -0.026909872
+Height                   -1.665667e-01  0.086885994 -0.159073665 -0.159442654 -0.0868437840 -0.092977233
+Reach                    -1.532100e-01  0.095846579 -0.178711761 -0.184434550 -0.1014747305 -0.113020719
+Rnd                       6.289204e-01 -0.149916166  0.231686811  0.225820966  0.2441164062  0.261074095
+Time_Seconds              4.623521e-01 -0.192873547  0.191157027  0.188141669  0.1806425119  0.208908288
+Total_Fight_Time_Seconds  6.441703e-01 -0.172840944  0.242165947  0.236460512  0.2503110112  0.271366724
+Results                   9.365417e-02  0.273612746  0.009006099  0.006799483  0.0749222952  0.057690382
+Decision_Unanimous        3.879795e-01 -0.175320441  0.190875617  0.188540469  0.1798557171  0.201052674
+KO_TKO                   -3.372433e-01  0.359655241 -0.188184477 -0.186500616 -0.1176663460 -0.141757757
+Submission               -2.613283e-01 -0.131142466 -0.101074645 -0.095793740 -0.1334825881 -0.139173132
+Decision_Split            2.218648e-01 -0.087788582  0.089632636  0.083447540  0.0423332860  0.060325202
+Draw                      4.532464e-02  0.010884080  0.035979676  0.034695008  0.0680769007  0.049181431
+No_Contest               -5.323676e-02 -0.051669477 -0.019393856 -0.016799818 -0.0508991602 -0.044929079
+Decision_Majority         2.978160e-02 -0.039368146  0.023220901  0.025734287 -0.0013086529  0.007820032
+                                 SCLL        SCL_A           RV            SR           TDL          TD_A
+Weight                   -0.026915385 -0.034524173 -0.073214434  0.0185334933 -0.0265714462 -0.0759642138
+Height                   -0.042552288 -0.043964287 -0.043801460  0.0721431276 -0.0756295780 -0.1067024898
+Reach                    -0.036172228 -0.040902341 -0.050642263  0.0657665870 -0.0714448672 -0.1040025042
+Rnd                       0.065710772  0.061326216  0.140498671 -0.0037534155  0.2508493335  0.3250650435
+Time_Seconds              0.071767211  0.064959283  0.126244277 -0.0176414207  0.1883773898  0.2678358165
+Total_Fight_Time_Seconds  0.072778565  0.067451208  0.149262433 -0.0073172310  0.2578571251  0.3396826033
+Results                   0.062545596  0.062168611 -0.022751837 -0.0016033135  0.2076588120  0.1017202600
+Decision_Unanimous        0.073679081  0.060845500  0.121610720 -0.0063526565  0.1935567758  0.2467710170
+KO_TKO                   -0.051215918 -0.045646204 -0.116811510 -0.0600593728 -0.2187134393 -0.2751445197
+Submission               -0.047034038 -0.041197813 -0.033895662  0.0958509901 -0.0076550299 -0.0712635443
+Decision_Split            0.030055364  0.034830139  0.033560188 -0.0039195983  0.0294150637  0.1059144352
+Draw                     -0.007216038 -0.001382993  0.035590233 -0.0108537281  0.0157050414  0.0119556153
+No_Contest               -0.015314725 -0.016937950 -0.033094977 -0.0108537281 -0.0035873524 -0.0079295724
+Decision_Majority        -0.017839209 -0.018831245  0.004688655 -0.0082697014 -0.0001084079  0.0110331876
+                                   TDS         SGBL        SGB_A          SGHL         SGH_A         SGLL
+Weight                   -5.216016e-02 -0.037484463 -0.044602011 -0.0007079212 -0.0120691525  0.036916644
+Height                   -1.080259e-01 -0.070322748 -0.069835670 -0.0155720806 -0.0243302985 -0.014559245
+Reach                    -9.666270e-02 -0.072298391 -0.078418155 -0.0041002840 -0.0154852257  0.001308372
+Rnd                       7.802657e-02  0.071096462  0.074995413  0.0656857013  0.0746958503  0.091120910
+Time_Seconds              9.704448e-02  0.082964968  0.088860712  0.0275495568  0.0444317392  0.028970481
+Total_Fight_Time_Seconds  8.917877e-02  0.079983973  0.084684395  0.0624387963  0.0740612550  0.084458894
+Results                   4.270972e-02  0.132923092  0.116399008  0.2735303085  0.2640259761  0.055176930
+Decision_Unanimous        8.017967e-02  0.109560619  0.118647976  0.0267151688  0.0468234871  0.045487209
+KO_TKO                   -6.557112e-02 -0.080540488 -0.084409402  0.0219845622  0.0099484681 -0.073704700
+Submission               -3.199582e-02  0.003427131 -0.004169528 -0.0170233541 -0.0300421244 -0.021155572
+Decision_Split            3.046722e-02 -0.045938636 -0.045538400 -0.0521885315 -0.0498246436  0.006438098
+Draw                     -2.204057e-02 -0.005105504 -0.002315618  0.0115584143  0.0199287107  0.028271198
+No_Contest               -2.204057e-02 -0.022489478 -0.022596661 -0.0320595310 -0.0330358315  0.100265532
+Decision_Majority        -1.679321e-02 -0.006160612 -0.008071500  0.0234811508  0.0129550094  0.069537817
+                                SGL_A           AD         ADTB          ADHG         ADTM         ADTS
+Weight                    0.010697399  0.014774113  0.006110289 -3.699144e-02  0.009688756 -0.072827743
+Height                   -0.042318396 -0.011329625  0.064326890 -1.075932e-02  0.027689143 -0.115680030
+Reach                    -0.028528158  0.003111288  0.079126285  1.289486e-03  0.034057077 -0.106604872
+Rnd                       0.094732736  0.091891209  0.063616729  6.079511e-02  0.034127097  0.012389958
+Time_Seconds              0.041123572  0.075418629  0.035676147  4.321543e-02  0.027255262  0.005790638
+Total_Fight_Time_Seconds  0.090374666  0.095954613  0.062570967  6.192431e-02  0.035460204  0.011916149
+Results                   0.066471333  0.124715042  0.098058283  4.574683e-02  0.010332539  0.091921461
+Decision_Unanimous        0.058820522  0.082058376  0.019101639  3.851066e-02  0.006466740 -0.009442535
+KO_TKO                   -0.080222828 -0.091070548 -0.083886104 -7.176153e-02 -0.040211167 -0.073622972
+Submission               -0.021881359  0.017462560  0.048090132  1.040814e-02 -0.001547366  0.135037661
+Decision_Split            0.005609239  0.007280239  0.056456260 -1.064783e-02 -0.020739293 -0.016778505
+Draw                      0.026707870 -0.007874899  0.005551456  1.711769e-01  0.226416243 -0.008397499
+No_Contest                0.078772573 -0.021836160 -0.009892223 -1.970907e-02 -0.009812357 -0.026323589
+Decision_Majority         0.064066494 -0.027274867 -0.019303998 -1.501679e-02 -0.007476257 -0.020056539
+                                    SM X.Ground_Body_Strikes X.Ground_Head_Strikes X.Ground_Leg_Strikes
+Weight                   -0.1172273420          -0.002197750         -0.0388752062        -0.0409949996
+Height                   -0.0905087350          -0.014059142         -0.0611646535        -0.0748876021
+Reach                    -0.0759937236          -0.004503445         -0.0556975605        -0.0585222018
+Rnd                      -0.0092674515           0.088659251          0.0728505981         0.0892048246
+Time_Seconds              0.0138298465           0.104222756          0.0408295691         0.0730702411
+Total_Fight_Time_Seconds -0.0046750677           0.099920307          0.0716472317         0.0931159347
+Results                   0.1481615408           0.177855577          0.2897441914         0.0915533443
+Decision_Unanimous       -0.0304909460           0.091186918         -0.0003420179         0.0718359288
+KO_TKO                   -0.2015937089          -0.073974870          0.0461459495        -0.0845674863
+Submission                0.3151855888          -0.017067436         -0.0266537213        -0.0347299227
+Decision_Split           -0.0188255930          -0.031156456         -0.0338811257         0.0387867574
+Draw                      0.0108925134           0.058390189          0.0067419475         0.0386809379
+No_Contest               -0.0252393122          -0.026389334         -0.0243062984         0.0172733924
+Decision_Majority        -0.0218522761           0.024714694          0.0158188364         0.0291922680
+                         X.Clinch_Body_Strikes X.Clinch_Head_Strikes X.Clinch_Leg_Strikes         X.LEG
+Weight                           -8.791877e-02         -0.0512083959         -0.021284110 -0.0609576597
+Height                           -1.235839e-01         -0.0647760038         -0.063997618 -0.0456928807
+Reach                            -1.498130e-01         -0.0778975439         -0.068677777 -0.0439520854
+Rnd                               2.548126e-01          0.2542287094          0.106379713  0.2310320199
+Time_Seconds                      2.249890e-01          0.1794802030          0.121179827  0.2162855101
+Total_Fight_Time_Seconds          2.697801e-01          0.2586625088          0.118987497  0.2474714541
+Results                          -7.668258e-03          0.0364453358          0.039304959  0.0380795591
+Decision_Unanimous                1.737190e-01          0.1331672882          0.070134599  0.1384785791
+KO_TKO                           -1.851246e-01         -0.1144900257         -0.101567331 -0.0739273971
+Submission                       -1.000544e-01         -0.0983592742         -0.039051209 -0.1383920608
+Decision_Split                    1.119158e-01          0.0751636666          0.092718435  0.0602085433
+Draw                              5.596971e-02          0.0640506135          0.009533937  0.0171367149
+No_Contest                       -2.102480e-02         -0.0621538559         -0.005855721  0.0055986636
+Decision_Majority                 1.603634e-02          0.0299134266         -0.027913065 -0.0051672443
+                                X.BODY        X.HEAD X.Total_Strikes     X.TK_ACC X.Significant_Strikes
+Weight                   -0.0029161829  0.0556793699    0.0820112979 -0.076227089           0.060772950
+Height                   -0.0284019403  0.0134330591    0.0221849145 -0.116849421           0.019392757
+Reach                    -0.0369808504 -0.0057505213    0.0147691081 -0.111904414          -0.010047881
+Rnd                       0.1245444856 -0.1008515098   -0.0211130151  0.113264628          -0.103947173
+Time_Seconds              0.1400037147 -0.1332519964   -0.0009383054  0.083911404          -0.113061578
+Total_Fight_Time_Seconds  0.1388691788 -0.1170907119   -0.0182219564  0.116161484          -0.115018848
+Results                   0.0549363913  0.3434299172    0.1987037286  0.232716025           0.278452036
+Decision_Unanimous        0.0372162505 -0.0944648959   -0.0145150421  0.075365279          -0.090251824
+KO_TKO                   -0.0567655480  0.1670153521   -0.0139309232 -0.163781161           0.150349604
+Submission               -0.0380088988 -0.0407409280    0.0672995128  0.118659574          -0.024041449
+Decision_Split            0.0437943904 -0.0558593217   -0.0516322088 -0.020670787          -0.057758009
+Draw                      0.0169673036  0.0109497987    0.0258395090  0.041436192          -0.001186445
+No_Contest                0.0359931128 -0.0199090072   -0.0109849849 -0.027533424           0.005632949
+Decision_Majority         0.0258529522  0.0302638843    0.0476878640 -0.016468494           0.020923072
+ [ reached getOption("max.print") -- omitted 56 rows ]
 
