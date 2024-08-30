@@ -11,11 +11,11 @@ One of the most powerful tools in this section is the correlation matrix, which 
 
 Summary Statistics - Correlation matrix for numeric variables – Snippet
 
-                 Height       Weight        Reach          Rnd          
-Height                    1.000000000  0.809645711  0.927082356 -0.080466651 -0.0772000335
-Weight                    0.809645711  1.000000000  0.773215350 -0.117097237 -0.1438516062
-Reach                     0.927082356  0.773215350  1.000000000 -0.073869176 -0.0828932647
-Rnd                      -0.080466651 -0.117097237 -0.073869176  1.000000000  0.4722461377
+                                Weight       Height        Reach           Rnd  Time_Seconds
+Weight                    1.0000000000  0.809832370  0.773535038 -0.1175287652 -0.1957305510
+Height                    0.8098323701  1.000000000  0.927106186 -0.0808559475 -0.1817163305
+Reach                     0.7735350380  0.927106186  1.000000000 -0.0744050299 -0.1806207676
+Rnd                      -0.1175287652 -0.080855948 -0.074405030  1.0000000000  0.5489326375
 
 
 
@@ -24,34 +24,33 @@ Rnd                      -0.080466651 -0.117097237 -0.073869176  1.000000000  0.
 
 
 10 Key Takeaways from the Correlation Matrix:
+Strong Positive Correlation Between Height and Reach (0.93):
 
-1.	Strong Positive Correlation Between Height and Reach (0.93):
-o	Why It Matters: This strong correlation is expected, as taller fighters generally have a longer reach. Understanding this relationship is crucial for interpreting fighter statistics, particularly in striking and defensive metrics where reach plays a significant role.
+Why It Matters: This correlation indicates that taller fighters generally have a longer reach. This relationship is essential when analyzing striking and defensive metrics, where reach plays a significant role. It can also be a critical factor in predicting fight outcomes.
+Moderate Negative Correlation Between Weight and Rounds Fought (-0.12):
 
-2.	Moderate Negative Correlation Between Weight and Rounds Fought (-0.12):
-o	Why It Matters: This suggests that heavier fighters tend to have fewer rounds in their fights, potentially due to higher knockout power, leading to quicker finishes. This could influence strategies for fighters in heavier weight classes.
+Why It Matters: This suggests that heavier fighters tend to participate in fewer rounds. This could be due to higher knockout power, resulting in quicker finishes. This insight may guide strategies for fighters in heavier weight classes.
+High Positive Correlation Between Rounds and Total Fight Time (0.98):
 
-3.	High Correlation Among Striking Defense Metrics (e.g., SDBL and SDB_A - 0.95):
-o	Why It Matters: These high correlations indicate redundancy among these metrics, which could lead to multicollinearity in predictive models. It’s important to consider combining or selecting only one of these variables to avoid instability in model training.
+Why It Matters: This strong correlation is expected as more rounds result in a longer total fight time. This is crucial when evaluating fighter endurance, stamina, and strategies for longer bouts.
+Moderate Negative Correlation Between KO/TKO and Time Seconds (-0.56):
 
-4.	Moderate Positive Correlation Between Total Strikes Landed and Rounds Fought (0.63):
-o	Why It Matters: This suggests that fighters who participate in longer fights tend to land more total strikes, which makes sense as more time allows for more opportunities to strike. This insight is crucial when analyzing fighter endurance and activity.
+Why It Matters: This suggests that fights ending in KO/TKO tend to be shorter. This could imply that knockouts are more likely to occur early in the fight rather than later, providing valuable insight into fighters' striking power and their ability to finish fights early.
+Moderate Positive Correlation Between Decision_Unanimous and Total Fight Time (0.62):
 
-5.	Negative Correlation Between Total Strikes Attempted and Knockdowns (TS_A and KD: -0.11):
-o	Why It Matters: This counterintuitive result suggests that fighters who attempt more strikes are less likely to achieve knockdowns. It could imply that more accurate or powerful striking, rather than sheer volume, is more important for knockdowns.
+Why It Matters: Fights that go the distance (longer total fight times) tend to end in unanimous decisions. This highlights the endurance and control exhibited by fighters who can last the entire duration of the fight and influence judges' scoring consistently.
+Moderate Negative Correlation Between KO/TKO and Decision_Unanimous (-0.55):
 
-6.	Positive Correlation Between Significant Strikes Landed and Total Strikes Landed (SSL and TSL: 0.83):
-o	Why It Matters: This strong correlation shows that fighters who land more total strikes tend to land more significant strikes. This could influence how we evaluate a fighter’s effectiveness in striking, as it indicates consistency in landing impactful strikes.
+Why It Matters: This negative correlation suggests that fights ending in KO/TKO are less likely to be decided by a unanimous decision. This indicates that knockouts and unanimous decisions are mutually exclusive outcomes, reflecting different fight dynamics and strategies.
+Moderate Positive Correlation Between Total Strikes Landed and Rounds (0.63):
 
-7.	Negative Correlation Between Height and Knockouts (KO/TKO: -0.50):
-o	Why It Matters: Taller fighters are less likely to win by knockout, which could be due to a reliance on reach and technique over power. This insight might influence how we assess fighters' finishing ability in different weight classes.
+Why It Matters: This suggests that fighters who engage in longer fights tend to land more strikes. This insight is crucial for understanding a fighter's striking style, output, and endurance, which can help predict their performance in future bouts.
+Weak Positive Correlation Between Ground Strikes and Fight Outcome (X.Ground_Head_Strikes and Results: 0.29):
 
-8.	Positive Correlation Between Total Strikes Landed and Fight Outcome (TSL and Results: 0.20):
-o	Why It Matters: This suggests that landing more strikes is generally associated with winning a fight. While not a very strong correlation, it reinforces the importance of striking volume in determining fight outcomes.
+Why It Matters: This weak correlation suggests that while ground strikes contribute to fight outcomes, they are not the most decisive factor. This insight can help refine models that predict fight outcomes based on various striking metrics.
+Moderate Positive Correlation Between Total Strikes Landed and Significant Strikes (0.83):
 
-9.	Weak or No Correlation Between Ground Strikes and Fight Outcomes:
-o	Why It Matters: The lack of a strong correlation between metrics like Ground Strikes and the result of the fight suggests that ground striking might not be as decisive in determining outcomes as other factors, like striking defense or overall striking.
+Why It Matters: Fighters who land more total strikes also tend to land more significant strikes. This could indicate a fighter's consistency and effectiveness in striking, which can be valuable in evaluating their overall striking skills.
+Weak or No Correlation Between Many Striking Metrics and Fight Outcomes:
 
-10.	High Correlation Between Height and Weight (0.81):
-o	Why It Matters: This is an expected correlation since heavier fighters are often taller, particularly within the same weight class. This relationship is important when analyzing weight distribution across different fighter profiles and could be a factor when adjusting for weight in models.
-
+Why It Matters: Several striking metrics, such as clinch strikes or submission attempts, show weak or no significant correlation with fight outcomes. This suggests that while these metrics may have tactical importance during fights, they are not as influential in determining overall fight results.
