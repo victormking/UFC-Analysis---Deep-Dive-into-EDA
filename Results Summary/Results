@@ -1,0 +1,14 @@
+The analysis of UFC fights from the summer of 2024 and their historical data revealed several key insights:
+
+1. **Methods of Victory**:
+   - Decision (Unanimous and Split) and KO/TKO are the most common methods of victory across all weight classes.
+   - There are variations in victory methods across different stances and continents, with fighters from specific regions favoring certain fighting styles.
+
+2. **Correlation Analysis**:
+   - A strong positive correlation was observed between significant strikes landed and fight outcomes, indicating that striking efficiency is a critical factor in winning a fight.
+   - Takedown defense showed a moderate correlation with winning outcomes, especially in heavier weight classes.
+
+3. **Key Visualizations**:
+   - A **Heatmap** of the correlation matrix provides a comprehensive view of relationships between different fight metrics.
+   - **Pie charts** and **bar graphs** illustrate the distribution of fighters by stance, continent, and victory methods.
+   - **Interactive visualizations** such as the **Sankey diagram** highlight the flow of fight outcomes across continents.
