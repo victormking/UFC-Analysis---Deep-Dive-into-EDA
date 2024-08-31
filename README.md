@@ -1,13 +1,16 @@
-# UFC Analysis - Deep Dive into EDA's 
-Analysis of UFC fights from 128 fighter's historical data.
+# UFC Analysis - Deep Dive into EDA
 
-During the weeks of July 27, 2024 through September 14, 2024 there was a total of 7 UFC events (Fight Night or PPV) and I took the historical data from the fighters during these fights. This was 128 Unique fighters, and fights acrros 11 out of the 12 weight classes. 
+This project aims to analyze UFC fights from the summer of 2024 and their historical data to explore various factors that influence fight outcomes. Using data from 128 unique fighters across different weight classes and continents, we dive into Exploratory Data Analysis (EDA), visualizations, and predictive modeling to uncover patterns, trends, and key performance metrics.
 
-The project includes exploratory data analysis (EDA), visualizations, and comparisons across various metrics, stances, weight classes, and continents.
+**Objectives**
 
-Data included all important findings during the early analysis process
+- To identify patterns in fight outcomes based on factors like stance, weight class, and fighter experience.
+- To analyze the performance metrics such as strikes, takedowns, and submissions to understand their impact on fight results.
+- To create predictive models that can forecast fight outcomes using various machine learning algorithms.
+- To provide actionable insights that can be used by trainers, analysts, or enthusiasts to better understand UFC dynamics.
 
-Visualizations includes all 25 different visualizations
+**Key Questions**
 
-Code shows full code and comments 
-
+1. What are the most common methods of victory in the UFC, and how do they vary across weight classes and stances?
+2. How do different fight metrics (e.g., strikes landed, takedowns) correlate with winning outcomes?
+3. Can we predict the outcome of a fight based on historical performance data and fighter attributes?
