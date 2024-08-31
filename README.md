@@ -1,4 +1,4 @@
-# UFC Analysis - Deep Dive into EDA
+# UFC Analysis - Deep Dive into EDA Through R
 
 This project aims to analyze UFC fights from the summer of 2024 and their historical data to explore various factors that influence fight outcomes. Using most recents events to choose the fighters. This lead to data from 128 unique fighters across different weight classes and continents. I dive into Exploratory Data Analysis (EDA), visualizations, and predictive modeling to uncover patterns, trends, and key performance metrics.
 
