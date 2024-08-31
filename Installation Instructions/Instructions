@@ -1,0 +1,9 @@
+To reproduce the analysis and run the code, you need to install the necessary libraries in R. You can install the libraries using the commands below:
+
+```r
+# Install the necessary packages in R
+install.packages(c("ggplot2", "readr", "dplyr", "car", "purrr", "reshape2", "multcomp", "pROC", "caret", "iml", "mlr", "ranger", "xgboost", "e1071", "tidyr", "viridis", "GGally", "RColorBrewer", "ggridges", "treemap", "fmsb", "networkD3", "htmlwidgets", "vcd", "igraph", "ggraph", "lubridate", "rpart", "rpart.plot", "ggtern", "waterfalls"))
+
+# If any packages are not available through CRAN, use the remotes package to install them from GitHub:
+# install.packages("remotes")
+# remotes::install_github("username/package")
