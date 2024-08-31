@@ -1,0 +1,89 @@
+Categorical Columns:
+1.	Fighter: The name of the fighter.
+2.	Opponent: The name of the opponent.
+3.	Country: The country the fighter represents.
+4.	WT_Class: The weight class the fighter competes in.
+5.	Team: The team or gym the fighter is associated with.
+6.	Nickname: The fighter's nickname (if any).
+7.	Stance: The fighting stance (e.g., Orthodox, Southpaw).
+8.	Decision: The type of decision (e.g., KO/TKO, Submission, Decision).
+9.	Event: The name of the event where the fight took place.
+10.	Res: The result of the fight (Win, Loss, Draw).
+11.	Continent: The continent where the fighter is from.
+12.	Southpaw_Stance: Binary indicator for Southpaw stance (1 if Southpaw, 0 otherwise).
+13.	Orthodox_Stance: Binary indicator for Orthodox stance (1 if Orthodox, 0 otherwise).
+14.	Switch_Stance: Binary indicator for Switch stance (1 if Switch, 0 otherwise).
+15.	Decision_Unanimous: Binary indicator for unanimous decision (1 if unanimous, 0 otherwise).
+16.	KO_TKO: Binary indicator for KO/TKO result (1 if KO/TKO, 0 otherwise).
+17.	Submission: Binary indicator for submission result (1 if submission, 0 otherwise).
+18.	Decision_Split: Binary indicator for split decision (1 if split, 0 otherwise).
+19.	No_Contest: Binary indicator for no contest result (1 if no contest, 0 otherwise).
+20.	Draw: Binary indicator for a draw (1 if draw, 0 otherwise).
+21.	Decision_Majority: Binary indicator for majority decision (1 if majority, 0 otherwise).
+22.	TKO_Doctors_Stoppage: Binary indicator for TKO due to doctor's stoppage (1 if stoppage, 0 otherwise).
+23.	Africa: Binary indicator for Africa continent (1 if fighter is from Africa, 0 otherwise).
+24.	Asia: Binary indicator for Asia continent (1 if fighter is from Asia, 0 otherwise).
+25.	Europe: Binary indicator for Europe continent (1 if fighter is from Europe, 0 otherwise).
+26.	North_America: Binary indicator for North America continent (1 if fighter is from North America, 0 otherwise).
+27.	South_America: Binary indicator for South America continent (1 if fighter is from South America, 0 otherwise).
+28.	Oceania: Binary indicator for Oceania continent (1 if fighter is from Oceania, 0 otherwise).
+29.	Results: Binary outcome variable indicating win (1) or loss (0).
+
+
+
+Numeric Columns:
+30.	Weight: The fighter's weight.
+31.	Height: The fighter's height.
+32.	Reach: The fighter's reach.
+33.	Rnd: The round in which the fight ended.
+34.	Time_Seconds: The time duration of the fight in seconds.
+35.	Total_Fight_Time_Seconds: The total fight time in seconds.
+36.	SDBL: Significant Body Landed.
+37.	SDB_A: Significant Body Attempted.
+38.	SDHL: Significant Head Landed.
+39.	SDH_A: Significant Head Attempted.
+40.	SDLL: Significant Leg Landed.
+41.	SDL_A: Significant Leg Attempted.
+42.	TSL: Total Strikes Landed.
+43.	TS_A: Total Strikes Attempted.
+44.	SSL: Significant Strikes Landed.
+45.	SS_A: Significant Strikes Attempted.
+46.	KD: Number of knockdowns.
+47.	SCBL: Clinch Body Strikes Landed.
+48.	SCB_A: Clinch Body Strikes Attempted.
+49.	SCHL: Clinch Head Strikes Landed.
+50.	SCH_A: Clinch Head Strikes Attempted.
+51.	SCLL: Clinch Leg Strikes Landed.
+52.	SCL_A: Clinch Leg Strikes Attempted.
+53.	RV: Reversals.
+54.	SR: Submission Attempts.
+55.	TDL: Takedowns Landed.
+56.	TD_A: Takedowns Attempted.
+57.	TDS: Takedown Success Rate.
+58.	SGBL: Ground Body Strikes Landed.
+59.	SGB_A: Ground Body Strikes Attempted.
+60.	SGHL: Ground Head Strikes Landed.
+61.	SGH_A: Ground Head Strikes Attempted.
+62.	SGLL: Ground Leg Strikes Landed.
+63.	SGL_A: Ground Leg Strikes Attempted.
+64.	AD: Advancements.
+65.	ADTB: Top Body.
+66.	ADHG: Top Guard.
+67.	ADTM: Top Mount.
+68.	ADTS: Top Side Control.
+69.	SM: Scrambles.
+70.	X.Ground_Body_Strikes: Percentage of Ground Body Strikes.
+71.	X.Ground_Head_Strikes: Percentage of Ground Head Strikes.
+72.	X.Ground_Leg_Strikes: Percentage of Ground Leg Strikes.
+73.	X.Clinch_Body_Strikes: Percentage of Clinch Body Strikes.
+74.	X.Clinch_Head_Strikes: Percentage of Clinch Head Strikes.
+75.	X.Clinch_Leg_Strikes: Percentage of Clinch Leg Strikes.
+76.	X.LEG: Leg Strike Percentage.
+77.	X.BODY: Body Strike Percentage.
+78.	X.HEAD: Head Strike Percentage.
+79.	X.Total_Strikes: Total Strikes Percentage.
+80.	X.TK_ACC: Takedown Accuracy Percentage.
+81.	X.Significant_Strikes: Significant Strikes Percentage.
+82.	Date: The date of the fight.
+83.	Birthdate: The birthdate of the fighter.
+84.	Time: The fight time in minutes and seconds format
